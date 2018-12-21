@@ -1,0 +1,623 @@
+## intent:booking
+- [cab] (service) driver not good
+- [cab] (service) is bad
+- [cab] (service) is in bad condition
+- [cab] (service) stopped in middle
+- road middle [cab] (service) stop
+- driver very rude
+- driver dont know route
+- driver going wrong way
+- [cab] (service) is costly
+- driver not accepting ride
+- driver dont know english
+- [cab] (service) not enough
+- driver fighting
+- rash driving of [cab] (service)
+- I want to book a [cab] (service)
+- i do not know how to operate [cab] (service) calling apps
+- I cannot book a [cab] (service)
+- [cab] (service)s keep cancelling
+- [cab] (service) taking too long to come
+- unable to do online payment
+- no [cab] (service) available
+- [cab] (service)s not coming
+- I need to go out
+- I need a driver
+- I need to rent a car
+- I need a [cab] (service) from Velachery to the aura hospital?
+- Can I get a ride from xan to yan?
+- How do I book a [cab] (service)?
+- Can i book a [cab] (service) for long distance/out of station service?
+- What payment options are available?
+- What if the [cab] (service) driver doesn't show up on time?
+- Are there any cancellation charges?
+- Can i book them for anytime of the day?
+- What if I don't like the condition of the [cab] (service) when it arrives?
+- What if I don't like the driver?
+- Will they drop me exactly where I tell them to?
+- Can I choose who I want as my [cab] (service) driver?
+- Are there any reviews for the [cab] (service) drivers?
+- Will I have to pay the toll charges when I take the [cab] (service) for long distance?
+- I want to [book](booking) a [cab](service)
+- book a [cab] (service)[ today evening ](date)at [4pm](time)
+- I need a driver
+- [cab] (service) book
+- book [cab] (service)
+- how can i book a [cab] (service)
+- I need a [cab] (service) from Velachery to the aura hospital?
+- book a [cab] (service)
+- [ac] (electrical device) is not working
+- [light](electrical device) are dim
+- [ac] (electrical device) is not working
+- [ac] (electrical device) not working
+- [ac] (electrical device) is leaking
+- leaking from [ac] (electrical device)
+- Split in [ac] (electrical device) is not working
+- Blower in [ac] (electrical device) not working
+- [ac] (electrical device) is taking time to start
+- [washing machine] (electrical device) problem
+- [washing machine] (electrical device) is not running
+- [washing machine] (electrical device) drain problem
+- dryer problem in [washing machine] (electrical device)
+- [washing machine] (electrical device) is not starting
+- [fan] (electrical device) is not running
+- [fan] (electrical device) is not working
+- [fan] (electrical device) is slow
+- [fan] (electrical device)regulator not working
+- [fan] (electrical device) regulator not working
+- [fan] (electrical device) is running but no air
+- problem in [fan] (electrical device)
+- motor problem
+- motor is not working
+- air problem in motor
+- [ac] (electrical device) is turning on, but cooling effect not working
+- [ac] (electrical device) is not turning on
+- [ac] (electrical device) does not have enough power supply
+- cooling system not working
+- [ac] (electrical device) stops suddenly
+- Problem in [ac] (electrical device)
+- [ac] (electrical device) broke down
+- PCB not working
+- cooling problem
+- [ac] (electrical device) Water leakage
+- [ac] (electrical device) not installed properly
+- [ac] (electrical device) not working need replacement
+- [ac] (electrical device) coil leakage
+- valve is burnt
+- [geyser] (electrical device) stopped working
+- [geyser] (electrical device) not working
+- no water from [geyser] (electrical device) outlet
+- not heating water properly
+- [geyser] (electrical device) not working need replacement
+- [tv] (electrical device) Black out
+- Denied [tv] (electrical device) stand and fitting service
+- Blurry lines
+- Unclear picture
+- [tv] (electrical device) Screen no picture
+- [tv] (electrical device) Not working need replacement
+- No Display
+- suddenly stopped working
+- Vertical Color Lines coming
+- remote control and connection wire missing
+- display went off and on continuously and red led [light] (electrical device) started blinking continuously for 6 times
+- [washing machine] (electrical device) not working need replacement
+- [washing machine] (electrical device) started burning
+- [washing machine] (electrical device) installation not done
+- keeps refilling with water
+- clothes not getting washed properly
+- [washing machine] (electrical device) leaking
+- water supply not getting connected
+- water [pipe] (bath_utilities) disconnected
+- spin cycle keeps repeating and does not stop
+- bulb burst
+- [light] (electrical device) flickering
+- dim [tubelight] (electrical device)
+- [light] (electrical device) stopped working
+- delay in switching on
+- bulb too dim
+- cannot reach bulb to replace
+- [fan] (electrical device) blades damaged
+- [fan] (electrical device) stopped working
+- [fan] (electrical device) working, but no air
+- noisy and slow [fan] (electrical device)
+- [fan] (electrical device) not turning on
+- I think there is some problem with the [fan] (electrical device)
+- The [fan] (electrical device) is going slow
+- The [fan] (electrical device) spins slow
+- The [fan] (electrical device) is squeaking
+- [light] (electrical device)s are dim
+- Spark is coming from the switch board
+- Some sound is coming from the [ac] (electrical device)
+- [ac] (electrical device) does not turn on when I press this button
+- Mains supply is improper
+- There is some electrical problem in the main board
+- It looks like a low voltage problem
+- Hot water is not coming
+- The water from [heater] (electrical device) is still cold
+- [washing machine] (electrical device) is not starting
+- [washing machine] (electrical device) is humming
+- Picture is not proper on the [tv] (electrical device)
+- Lines are coming on the [tv] (electrical device)
+- While watching [tv] (electrical device) I see spots
+- [tv] (electrical device) turns off automatically
+- [fan] (electrical device) gets switched off automatically
+- Fuse is gone
+- Fuse wire needs to be changed
+- Gas leakage from [ac] (electrical device)
+- cooling is not sufficient from the [ac] (electrical device)
+- Dust filter has to be replaced in the [ac] (electrical device)
+- Water leakage from [ac] (electrical device) outlet
+- [water heater] (electrical device) is not working properly
+- [water heater] (electrical device) takes long time for water heating
+- Auto cut-off not working properly in [water heater] (electrical device)
+- Split-screen display in [tv] (electrical device)
+- Picture tube damaged in [tv] (electrical device)
+- Speakers not working in [tv] (electrical device)
+- Water outlet is blocked in [washing machine] (electrical device)
+- Not able to choose between different washing options
+- Gas leakage from [refrigerator] (electrical device)
+- The [fan] (electrical device) is rotation in the opposite direction.
+- My [fan] (electrical device) is slow.
+- The [light] (electrical device)s are flickering.
+- I think the fuse is down and there is no current from morning 9 o clock.
+- I saw something burn in the plug points
+- There is a tree fallen on the main line and the rain is pretty heavy
+- My [washing machine] (electrical device) outlet got clogged and there is water everywhere.
+- I need an electrician in my house.
+- My [ac] (electrical device)/[geyser] (electrical device)/[tv] (electrical device)/[washing machine] (electrical device) isn't working
+- The [light] (electrical device)s flicker a lot before turning on completely
+- Water is leaking from the [ac] (electrical device)
+- The [ac] (electrical device) isn't cooling the room, only the [fan] (electrical device) is working
+- The air coming out of the [ac] (electrical device) smells weird
+- [ac] (electrical device) buttons aren't working
+- The [ac] (electrical device) remote isn't working even with brand new batteries
+- The [ac] (electrical device) switches on but nothing happens after that
+- The [geyser] (electrical device) [light] (electrical device) is working but the water doesn't heat up
+- There is a spark every time I switch on the [geyser] (electrical device) switch
+- The [geyser] (electrical device) is leaking
+- The water is taking too long to heat up in the [geyser] (electrical device)
+- The [geyser] (electrical device) makes noises every time its switched on and continues till its switched off
+- The hot water from the [geyser] (electrical device) has a different color to it
+- The [tv] (electrical device) has lines across the screen
+- The [tv] (electrical device) takes too long to turn on
+- The [tv] (electrical device) switches off on its own sometimes
+- All channels on the [tv] (electrical device) are in black and white
+- I am not able to adjust the brightness on the [tv] (electrical device)
+- The buttons on the [tv] (electrical device) aren't working
+- The USB connection on the [tv] (electrical device) isn't working
+- The picture clarity of the [tv] (electrical device) isn't good
+- The [tv] (electrical device) isn't working
+- The [tv] (electrical device) switches on but I can only see a blank screen
+- The [washing machine] (electrical device) is leaking water form the side
+- The clothes aren't being washed properly on the quick setting
+- The clothes aren't drying properly in the dry cycle
+- The [washing machine] (electrical device) tore some of the clothes
+- The [fan] (electrical device) either runs on the lowest setting or the highest
+- The wire has been bitten by rats
+- The wires are exposed
+- Book an electrician [tomorrow](date) at [2 pm](time)
+- [ac] (electrical device) is leaking
+- Split in [ac] (electrical device) is not working
+- [washing machine] (electrical device)problem
+- [washing machine](electrical device) drain problem
+- dryer problem in [washing machine] (electrical device)
+- [washing machine] (electrical device) is not starting
+- problem in[ air conditioner](electrical device)
+- [fan](electrical device) is not running
+- [fan] (electrical device)'s regulator not working
+- problem in [fan] (electrical device)
+- [fan] (electrical device) motor is not working
+- [ac] (electrical device) is turning on, but cooling effect not working
+- PCB not working
+- [ac] (electrical device) Water leakage
+- [geyser](electrical device) stopped working
+- [tv] (electrical device) Screen no picture
+- [geyser](electrical device) not working need replacement
+- [geyser](electrical device) stopped working
+- [water heater](electrical device) not heating properly
+- [light](electrical device) flickering
+- dim [tubelight](electrical device)
+- [light] (electrical device)is not working properly
+- The water from [heater](electrical device) is still cold
+- [fan] (electrical device) gets switched off automatically
+- [gas] (service) leakage from [refrigerator](electrical device)
+- there is some problem with [ac](electrical device)
+- problem in [geyser](electrical device)
+- some issues in [fan](electrical device)
+- want to [book](booking) a [gas](service) [cylinder](service)
+- Someone needs to book [gas](service)
+- my [gas] (service) is over
+- want to book a [gas] (service) cylinder
+- Want to book [gas] (service) service
+- need number for [gas] (service) service
+- need to contact [gas] (service) service
+- We ran out of [gas] (service)
+- I can not cook
+- How can I cook without [gas] (service)
+- Someone needs to book [gas] (service)
+- How do I book [gas] (service)?
+- cylinder refill
+- refill of cylinder has to be done
+- Cylinder to be changed
+- How do you expect me to change cylinder myself
+- It would be great if someone changes the cylinder
+- How do I book [gas] (service) cylinders?
+- Will [gas] (service) be delivered to my house?
+- The [gas] (service) cylinder feels half empty
+- How do I find the best [gas] (service) cylinder agent?
+- How do I return a cylinder?
+- Will they give me full refund if I return the cylinder without having broken the seal?
+- Will they collect the cylinder for me?
+- Stove is burning dim
+- [gas] (service) cylinder empty
+- Flames are less in this stove
+- want to book a [gas] (service) cylinder
+- need to contact [gas] (service) service
+- We ran out of [gas] (service)
+- How do I book [gas] (service)?
+- refill of cylinder has to be done
+- Cylinder to be changed
+- How do I book [gas] (service) cylinders?
+- The [gas] (service) cylinder feels half empty
+- [gas] (service) cylinder empty
+- i need to book a [gas](service)
+- [pipe] (bath_utilities) are leaking and flooding all around
+- water [pipe] (bath_utilities) leakage
+- [pipe] (bath_utilities) broke
+- [tap] (bath_utilities) leaking
+- [tap] (bath_utilities) came off
+- [tap] (bath_utilities) broke
+- [pipe] (bath_utilities) blocked
+- drainage over flowing
+- [sink] (bath_utilities) over flowing
+// - water not going
+- motor not working
+// - motor running but no water
+- need plumber
+- drainage [pipe] (bath_utilities) damaged
+- leaking [pipe] (bath_utilities)
+- [sink] (bath_utilities) clogged
+- [sink] (bath_utilities) not draining
+- Basin waste [pipe] (bath_utilities) repair
+- [sink] (bath_utilities) waste [pipe] (bath_utilities) repair
+- Urinal waste [pipe] (bath_utilities) repair
+- flush not working
+- no water
+- [shower] (bath_utilities) broken
+- [tap] (bath_utilities) broken
+- [tap] (bath_utilities) faulty
+- water [pipe] (bath_utilities) leakage
+- [tap] (bath_utilities) is leaking
+- [pipe] (bath_utilities)s are leaking and flooding all around
+- The bathroom is messy
+- Bathroom is flooded with water
+- [sink] (bath_utilities) is leaking for the past two days
+- I called the plumber to fix the leak
+- The [pipe] (bath_utilities) needs to be changed
+- how do I fix on this valve
+- Insufficient water pressure for flow
+- There is water leakage every now and then.
+// - I need a water repair service
+// - when do I get the water service back
+// - I need a replacement for the water tubes.
+// - There is a need for making a water supply better.
+- How do I book for a plumbing service?
+- Can I ask them to come for service at a particular time?
+- What if I'm not happy with their work?
+- What if the plumber doesn't turn up on time?
+- Will I have to provide for any new parts or will the plumber buy them for me?
+- Can I choose which plumber I want?
+- Will I have to give them extra tip?
+- How do I cancel or reschedule the service?
+- [pipe] (bath_utilities) broke
+- [tap] (bath_utilities) brok e
+- [tap] (bath_utilities) broke in bathroom
+- need plumber
+- drainage [pipe] (bath_utilities) damaged
+- Basin waste [pipe] (bath_utilities) repair
+- [pipe] (bath_utilities)s are leaking and flooding all around
+- I need a water repair service
+- I need a replacement for the water tubes.
+- How do I book for a plumbing service?
+- [window] (object) repair
+- [door] (object) knob broken
+- [window] (object) broken
+- [window latch] (object) broken
+- [window glass]  (object) broken [window] (object) needs to be replaced
+- [window] (object) is in bad condition
+- [window] (object) grills broken
+- [window] (object) frame needs to be repaired
+- [window] (object) rails coming out
+- [window rail] (object) broken
+- [window] (object) hinge broken
+- [window hinge] (object) repair
+- [window] (object) is jammed
+- [window] (object) is not opening
+- [door] (object) hinge jammed
+- [door] (object) jammed
+- [door] (object) lock not opening
+- [door lock] (object) stuck
+- [door] (object) lock needs to be replaced
+- [door] (object) frame broken
+- [door] (object) repair
+- [door] (object) panel broken
+- new lock for [door] (object)
+- [door] (object) lock jammed
+- [door] (object) know came out
+- [door] (object) latch broken
+- [door stopper] (object) needs repair
+- termites on [door] (object)
+- [sofa] (object) seat broken
+- [sofa legs] (object) broken
+- [sofa] (object) arm broken
+- [sofa] (object) back rest broken
+- [sofa] (object) is shaking
+- [sofa] (object) is making noise
+- [sofa] (object) might fall
+- wooden [sofa] (object) is getting weak
+- [sofa] (object) might dismantle
+- [sofa] (object) might collapse
+- [sofa screws] (object) are falling down
+- [sofa] (object) knobs repair
+- [sofa] (object) panel repair
+- [sofa] (object) dismantle
+- [sofa] (object) legs dismantled
+- [sofa] (object) arm rest csme out
+- [sofa legs] (object) came out
+- [sofa] (object) tilting on one side
+- [sofa] (object) tilting forward
+- [sofa] (object) tilting backward
+- [sofa] (object) tilting sideward
+- [table] (object) legs repair
+- [table] (object) legs moving
+- [table] (object) shaking
+- [table] (object) needs support
+- [table] (object) shaking
+- [table] (object) fell
+- [table] (object) making noise
+- My [door](object) is not closing properly
+- [window] (object) [glass](object) broken [window] (object) needs to be replaced
+- [sofa](object) is shaking
+- can you suggest some carpenter [next week](date) [morning](time)
+- [window](object) latch broken
+- my [door](object) is not closing
+- [window](object) is jammed
+- [door] (object) stopper needs repair
+- [Sofa](object) seat broken
+- [sofa] (object) legs dismantled
+- [table] (object) shaking
+- [table](object) legs repair
+- [sofa] (object) arm rest csme out
+- i need a help on carpenting
+
+## intent:house_service
+- smell is coming from the cylinder
+- smelly
+- gas smell
+- Some smell is coming from kitchen
+- I think gas is leaking
+- Cylinder is not working
+- Gas leaking due to regulator problems
+- Gas leakage to washer problem in the cylinder
+- There is a smell coming from the kitchen?
+- I think the gas tube is leaking.
+- There is a lot of smell coming from the cylinder.
+- The seal was broken on delivery
+- I can smell gas even after the connection is secured
+- The gas is leaking even after having closed the supply
+- I think gas is leaking
+- Gas leaking due to regulator problems
+- smell is coming from the cylinder
+- gas smell
+- I think gas is leaking
+- Gas leaking due to regulator problems
+- I think the gas tube is leaking.
+- There is a lot of smell coming from the cylinder.
+- The gas is leaking even after having closed the supply
+- The [maid] (person_maid) has not come today
+- [maid] (person_maid) is not picking up the phone
+- [maid] (person_maid) is making trouble these days
+- [maid] (person_maid) is not good
+- I dont like our [maid] (person_maid)
+- [maid] (person_maid) often taking leave
+- Clothes are not washed properly by the [maid] (person_maid)
+- Food is not tasty
+- The [maid] (person_maid) did not come today
+- my room is not cleaned
+- There is a lack of cleanliness in my room.
+- I need a better [maid] (person_maid) for the kitchen.
+- Where can I look for [maid] (person_maid)?
+- What all services are included?
+- Will they be available as a stay-in [maid] (person_maid)?
+- How do I know that they are trustworthy?
+- Will there be both men and women [maid] (person_maid)s available?
+- Will they be willing to go outside for errands?
+- How much do they charge?
+- Will they be willing to travel willing to travel with us when necessary?
+- Will they wear uniforms if provided?
+- What if i'm not happy with the service provided?
+- The [maid] (person_maid) has not come today
+- I need a better [maid](person_maid) for the kitchen.
+- [maid] (person_maid) is making trouble these days
+- [maid] (person_maid) is not good
+- I dont like our [maid] (person_maid)
+- [maid] (person_maid) often taking leave
+- There is a lack of cleanliness in my room.
+- I need a better [maid] (person_maid) for the kitchen.
+- Will they be available as a stay-in [maid] (person_maid)?
+- i need [water] (substance) [cans] (add_on)
+- no [water] (substance) need [water] (substance) [cans] (add_on)
+- i need [water] (substance) [cans] (add_on)
+- Someone has to change the [cans] (add_on)
+- We ran out of [drinking] (add_on) [water] (substance)
+- i need to refill [water] (substance) [cans] (add_on)
+- refill [cans] (add_on)
+- I did not get a [water] (substance) refill today
+- [Dirty] (w_service) [water] (substance)
+- [water] (substance) is too [hard] (w_service)
+- [water] (substance) is not [good] (w_service)
+- more [dust] (w_service) in [water] (substance)
+- [dirty] (w_service) [water] (substance)
+- [water] (substance) quality is not [good] (w_service)
+- There is [mud] (w_service) in the [water] (substance)
+- [water] (substance) is too [hard] (w_service)
+- Smell in the [water] (substance)
+- I need a water repair service
+- when do I get the water service back
+- I need a replacement for the water tubes.
+- There is a need for making a water supply better.
+- water not going
+
+## intent:negative
+- no
+- dont want
+- not required
+- not necessary
+- not exactly
+- i dont wish that
+
+## intent:greet
+- hello
+- hi
+- hi
+- hello
+- hi how are you
+- hello good morning
+- hi good morning
+- hello good evening
+- hi good afternoon
+- hi good evening
+- hello customer care
+- hello hello
+- aa hii
+- hello hi
+- i am having problem
+- i have a problem
+- How may I help you today?
+- What seems to be the problem?
+- May I help you?
+- What is your complaint?
+- What can I do for you?
+- Is there something you need help with?
+- Would you like to lodge a complaint about anything?
+- Can I help you with anything?
+- How can I be of help to you?
+- How may I be of assistance?
+- What do you need help with?
+- Hello. how are you
+- What is your name
+- what are you doing
+- what can you do for me
+- why are you here
+- can you do me a favor
+- can you help me out
+- Hi
+- Hai
+- Hey
+- Hello  
+- Ola
+- Dude
+- Good morning
+- What doing
+- How are you
+- Yo yo
+- hi
+- hello
+- I need a help.
+- ola
+- hey
+- can u do something for me?
+- Hello
+- How are you
+- Excuse me
+- May I know your name?
+- hello hello
+- can you help me?
+- Dude
+- I need a help.
+- can u do something for me?
+- heyy
+- hey
+
+## intent:confirmation
+- yeah
+- okay
+- sure
+- ofcourse
+- obviously
+- ya ya
+- okay sure
+- definitely
+- hmmm okay
+- fine
+- okay fine with me
+- okay fine
+- okay bye
+- Yes
+- Of course
+- Sure
+- Okay
+- Alright
+- I will do that
+- thank you very much
+- thanks for helping me out
+- god bless you
+- you were really helpful
+- you helped me
+- i am feeling better now
+- Yeah
+- Ya
+- Yup
+- Yep
+- yes
+- maybe
+- sure
+- definitely
+- probably
+- of course
+- mmmm
+- hmmm
+- Okay
+- ok
+- k
+- Done
+- thank you
+- ohkay
+- sure
+- yes
+- we can do that
+- I need that
+- Thank you for confirming
+- I confirm that
+- We can go ahead with
+- This is to confirm that
+- This a confirmation message
+- yes
+- ok
+- go ahead
+- ofcourse
+- okay sure
+- obviously
+- Ya Yup Yep yes
+- definitely
+- yaa absolutely
+- yes
+
+## intent:final
+- thank you
+- bye
+- so kind of you
+- thank you so much dude
+- baa bye
+- thank you
+
+## intent:date_time
+- next friday at 3 pm time
+- [Today evening](date) at [4pm](time)
+- [today](date) at 2 noon
+- [tomorrow](date) [evening](time)
+- by next [friday](date)
+- can you schedule by next [saturday](date) at 3 pm
+- any time today
+- coming [thursday](date) at [four](time) pm
+- today evening
