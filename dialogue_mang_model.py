@@ -19,7 +19,7 @@ def train_dialogue(domain_file = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_ve
 					model_path = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/dialogue',
 					training_data_file = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/stories.md'):
 					
-	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=1500, batch_size=10)])
+	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=150, batch_size=10)])
 	data = agent.load_data(training_data_file)	
 	
 

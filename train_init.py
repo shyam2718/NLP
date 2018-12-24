@@ -3,13 +3,13 @@ from __future__ import division
 from __future__ import unicode_literals
 import logging
 
+from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
-
+from rasa_core.utils import EndpointConfig
 
 if __name__ == '__main__':
-
 
         logging.basicConfig(level='INFO')
 
@@ -25,3 +25,17 @@ if __name__ == '__main__':
                     # batch_size = 2,
                     validation_split = 0.1)			
         agent.persist(model_path)
+        
+        action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
+        interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
+        agent = Agent.load('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/dialogue', interpreter=interpreter,action_endpoint=action_endpoint)
+        print("Here we go...")
+        while True:
+                a = input()
+                if a == 'stop':
+                        break
+                else:
+                        responses = agent.handle_text(a)
+                        for response in responses:
+                                print(response["text"])
+

@@ -3,19 +3,19 @@
     "action_listen": {
       "slots": []
     },
-    "action_slots": {
-      "slots": []
-    },
     "action_slots2": {
       "slots": []
     },
-    "utter_datetime": {
+    "utter_final": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "utter_final": {
+    "utter_datetime": {
+      "slots": []
+    },
+    "action_slots": {
       "slots": []
     }
   },
@@ -30,5 +30,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20181222-094307"
+  "trained_at": "20181224-162147"
 }
