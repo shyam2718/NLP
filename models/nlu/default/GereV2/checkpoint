@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2/intent_classifier_tensorflow_embedding.ckpt"

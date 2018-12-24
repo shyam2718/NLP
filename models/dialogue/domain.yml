@@ -1,0 +1,128 @@
+%YAML 1.1
+---
+actions:
+- utter_plumbing
+- utter_electricity
+- utter_gas_leakage
+- utter_alternate
+- utter_datetime
+- action_slot_reset
+- utter_addcans
+- action_slots2
+- utter_book_cab_or_gas
+- utter_final
+- utter_carpenter_service
+- utter_maid
+- action_slots
+- utter_confirmation
+- utter_changeofservice
+- utter_greet
+- utter_ask_confirmation
+- utter_negative
+config:
+  store_entities_as_slots: true
+entities:
+- w_service
+- number
+- electrical device
+- date
+- time
+- temperature
+- person_maid
+- add_on
+- distance
+- bath_utilities
+- substance
+- service
+- object
+- volume
+forms: []
+intents:
+- booking:
+    use_entities: true
+- greet:
+    use_entities: true
+- date_time:
+    use_entities: true
+- confirmation:
+    use_entities: true
+- negative:
+    use_entities: true
+- final:
+    use_entities: true
+- house_service:
+    use_entities: true
+slots:
+  add_on:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  bath_utilities:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  electrical device:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  object:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person_maid:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  service:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  substance:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    auto_fill: true
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa_core.slots.FloatSlot
+  w_service:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_addcans:
+  - text: Do you want add more water cans
+  utter_alternate:
+  - text: Sorry! I couldnt understand you
+  utter_ask_confirmation:
+  - text: You have requested for the service at {time}. Can I go ahead for booking?
+  utter_changeofservice:
+  - text: You are currently processing a service!.Do you want to change the service(press
+      yes) or change timing of current service(press No)?
+  utter_confirmation:
+  - text: Cool! Thanks for the confirmation !! we will do the need for you. Service
+      we provide |Bookings-Cab, Gas| |Service - Electricity, Carpenting, Plumbing,
+      Water, Maid| |Add_ons - Add water|
+  utter_datetime:
+  - text: Can you suggest a workable date and time for booking your need
+  - text: I can book for you. please provide me with your workable date and time
+  utter_final:
+  - text: Bye Bye! Miss you
+  - text: Welcome !!!
+  utter_gas_leakage:
+  - text: Gas leakage problem. Consult expert!!!
+  utter_greet:
+  - text: Hi! How can I help you? Service we provide |Bookings - Cab, Gas| |Service
+      - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons - Add water|
+  - text: Hello! Nice to hear from you! How can I help you! Service we provide |Bookings
+      - Cab, Gas| |Service - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons
+      - Add water|
+  - text: Hey buddy! Welcome! How can I help you! Service we provide |Bookings - Cab,
+      Gas| |Service - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons - Add
+      water|
+  utter_maid:
+  - text: Problem with maid
+  utter_negative:
+  - text: what else can i do for u

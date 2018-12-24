@@ -19,6 +19,6 @@ if __name__ == '__main__':
 
     path = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/data/modified_data.json'
 	
-    # train_nlu(path, 'config_spacy.yml', model_path)
+    train_nlu(path, 'config_spacy.yml', model_path)
 	
     run_nlu()
