@@ -94,7 +94,7 @@ Plumbing items
 2) pipe
 3) closet
 4) valve
-5) t    ank
+5) tank
 6) Sink
 7) Wash basin
 8) Faucet

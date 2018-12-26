@@ -15,8 +15,16 @@ if __name__ == '__main__':
 
         training_data_file = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/stories.md'
         model_path = '/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/dialogue'
+        domain_file="/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml"
+        action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
+        interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
+ 
+        # agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
+        agent = Agent(domain_file,
+                      policies=[MemoizationPolicy(), KerasPolicy(epochs = 50)],
+                      interpreter=interpreter,
+                      action_endpoint=action_endpoint)
 
-        agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
         train_data = agent.load_data(training_data_file)
         agent.train(train_data,
                     augmentation_factor = 50,
@@ -26,9 +34,10 @@ if __name__ == '__main__':
                     validation_split = 0.1)			
         agent.persist(model_path)
         
-        action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
-        interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
+        # action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
+        # interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
         agent = Agent.load('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/dialogue', interpreter=interpreter,action_endpoint=action_endpoint)
+        
         print("Here we go...")
         while True:
                 a = input()
@@ -37,5 +46,7 @@ if __name__ == '__main__':
                 else:
                         responses = agent.handle_text(a)
                         for response in responses:
-                                print(response["text"])
+                                data = response["text"]
+                        
+                        print(data)
 

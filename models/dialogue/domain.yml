@@ -97,14 +97,14 @@ templates:
   utter_alternate:
   - text: Sorry! I couldnt understand you
   utter_ask_confirmation:
-  - text: You have requested for the service at {time}. Can I go ahead for booking?
+  - text: You have requested for the service at @{time}@. Can I go ahead for booking?
   utter_changeofservice:
   - text: You are currently processing a service!.Do you want to change the service(press
       yes) or change timing of current service(press No)?
   utter_confirmation:
   - text: Cool! Thanks for the confirmation !! we will do the need for you. Service
-      we provide |Bookings-Cab, Gas| |Service - Electricity, Carpenting, Plumbing,
-      Water, Maid| |Add_ons - Add water|
+      we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing,
+      Water, Maid|
   utter_datetime:
   - text: Can you suggest a workable date and time for booking your need
   - text: I can book for you. please provide me with your workable date and time
@@ -114,14 +114,12 @@ templates:
   utter_gas_leakage:
   - text: Gas leakage problem. Consult expert!!!
   utter_greet:
-  - text: Hi! How can I help you? Service we provide |Bookings - Cab, Gas| |Service
-      - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons - Add water|
-  - text: Hello! Nice to hear from you! How can I help you! Service we provide |Bookings
-      - Cab, Gas| |Service - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons
-      - Add water|
-  - text: Hey buddy! Welcome! How can I help you! Service we provide |Bookings - Cab,
-      Gas| |Service - Electricity, Carpenting, Plumbing, Water, Maid| |Add_ons - Add
-      water|
+  - text: Hi! How can I help you? Service we provide -- |Bookings -Problems related
+      to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hello! Nice to hear from you! How can I help you! Service we provide --
+      |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hey buddy! Welcome! How can I help you! Service we provide -- |Bookings
+      -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
   utter_maid:
   - text: Problem with maid
   utter_negative:

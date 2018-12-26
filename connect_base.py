@@ -1,21 +1,30 @@
-import pyrebase
+
+
+
 
 config = {
-  "apiKey": "AIzaSyAt3XIUmt20-xaq-i90yWOgKfCIwYbb9_E",
-  "authDomain": "volleyex-57efa.firebaseapp.com",
-  "databaseURL": "https://volleyex-57efa.firebaseio.com",
-  "storageBucket": "volleyex-57efa.appspot.com"
+  "apiKey": "AIzaSyBYBGUvb0vWScsmHxEukoR-WIDsLMaavuY",
+  "authDomain": "hticmodule3.firebaseapp.com",
+  "databaseURL": "https://hticmodule3.firebaseio.com",
+  "storageBucket": "hticmodule3.appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
 
+#Authenticate
 auth = firebase.auth()
-
 db = firebase.database()
 
-# db.child("users").push("its not working")
-# db.child("users").push("its working")
+def get_meth(data,db):
+    db.child("ash").set("its not working")
+    return
 
-result = db.child("ashChild").get()
+#Streaming
+def stream_handler(message):
+    # print(message["event"]) # put
+    # print(message["path"]) 
+    print(message["data"]) 
+    current_data = message["data"]
+    get_meth(current_data,db)
 
-print(result.val())
+my_stream = db.child("ash").stream(stream_handler)

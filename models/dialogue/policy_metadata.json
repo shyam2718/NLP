@@ -6,16 +6,19 @@
     "action_slots2": {
       "slots": []
     },
+    "utter_confirmation": {
+      "slots": []
+    },
+    "action_slots": {
+      "slots": []
+    },
     "utter_final": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "utter_datetime": {
-      "slots": []
-    },
-    "action_slots": {
+    "utter_ask_confirmation": {
       "slots": []
     }
   },
@@ -30,5 +33,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20181224-162147"
+  "trained_at": "20181226-193800"
 }
