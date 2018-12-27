@@ -45,6 +45,7 @@ intents:
 - confirmation
 - negative
 - final
+- A_restart
 - house_service
 slots:
   add_on:

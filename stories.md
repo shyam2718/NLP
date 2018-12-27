@@ -16,3 +16,117 @@
 ## story_006
 * date_time
    - utter_ask_confirmation
+
+## story_007
+* greet
+   - utter_greet
+* booking
+   - action_slots
+* confirmation
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* confirmation
+   - utter_confirmation
+* final
+   - utter_final
+   - action_restart
+
+## story_008
+* booking
+   - action_slots
+* booking
+   - action_slots
+* negative
+   - utter_negative
+* booking
+   - action_slots
+* confirmation
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* confirmation
+   - utter_confirmation
+   - action_restart
+
+## story_009
+* booking
+   - action_slots
+* booking
+   - action_slots
+* confirmation
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* negative
+   - utter_changeofservice
+* confirmation
+   - action_slot_reset
+   - utter_negative
+* house_service
+   - action_slots2
+* confirmation
+   - utter_confirmation
+   - action_restart
+
+## story_010
+* booking
+   - action_slots
+* confirmation
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* negative
+   - utter_changeofservice
+* negative
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* confirmation
+   - utter_confirmation
+   - action_restart
+
+## story_011
+* A_restart
+   - action_restart
+
+## story_012
+* greet
+   - utter_greet
+* house_service
+   - action_slots2
+* house_service
+   - action_slots2
+* confirmation
+   - utter_confirmation
+* final
+   - utter_final
+   - action_restart
+
+## story_013
+* house_service
+   - action_slots2
+* house_service
+   - action_slots2
+* negative
+   - utter_negative
+* house_service
+   - action_slots2 
+* confirmation
+   - utter_confirmation
+   - action_restart
+
+## story_014
+* house_service
+   - action_slots2
+* negative
+   - utter_negative
+* booking
+   - action_slots
+* confirmation
+   - utter_datetime
+* date_time
+   - utter_ask_confirmation
+* confirmation
+   - utter_confirmation
+   - action_restart

@@ -621,3 +621,7 @@
 - any time today
 - coming [thursday](date) at [four](time) pm
 - today evening
+
+## intent:A_restart
+- actionrestart
+- actionrestart everything
