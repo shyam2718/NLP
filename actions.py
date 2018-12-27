@@ -18,10 +18,10 @@ class ActionSlot1(Action):
 
 
         #Bag of words:
-        Electricity_Control_room = ['power','powercut','powershutdown','powerfailure','poweroff','powerclosedown','poweroutage','powersupplyinterruption','powerblackout','powerobstruction','powerlayoff','powerstandstill','powerdiscontinuance']
-        Electricity_appl = ['electric','electrician','ac','airconditioner','microwaveoven','washingmachine','clothesdryer','refrigerator','waterheater','vacuumcleaner','waterboiler','coffeemaker','electriccooker','dishwasher','ironbox','television','ceilingfan','gasfireplace','light','airpurifier','juicer','blender','waterpurifier','aircooler','geyser','ups','generator','genset']
-        Plumbing = ['plumber','plumbing','tap','pipe','closet','valve','tank','sink','washbasin','faucet','shower','lavatory','plumbing','tub','rack','adaptor','drain','seat','urinal','plumber','pipefitter','pipefixer','joint']
-        Carpenting = ['carpenter','carpentery','sofa','table','cot','daybed','chair','bench','couch','bench','door','window','desk','shelf','wardrobe','cabinet','rack','stand','sheath','gate','ventilator','frame','carpenter','cabinetmaker','woodworker','craftsman','mason','woodman','latch','bolt','hinge','woodjoiner','artificer']
+        Electricity_Control_room = ['power','powercut','powershutdown','powerfailure','poweroff','powerclosedown','power outage','power supplyinterruption','powerblackout','powerobstruction','powerlayoff','powerstandstill','powerdiscontinuance']
+        Electricity_appl = ['electric','electrician','ac','air conditioner','microwave oven','washing machine','dryer','refrigerator','water heater','vacuum cleaner','water boiler','coffee maker','electric', 'cooker','dish washer','ironbox','television','ceilingfan','gasfireplace','light','air purifier','juicer','blender','water purifier','air cooler','geyser','ups','generator','genset']
+        Plumbing = ['plumber','plumbing','tap','pipe','closet','valve','tank','sink','wash basin','faucet','shower','lavatory','plumbing','tub','rack','adaptor','drain','seat','urinal','plumber','pip fitter','pipefixer','joint']
+        Carpenting = ['carpenter','carpentery','sofa','table','cot','daybed','chair','bench','couch','bench','door','window','desk','shelf','wardrobe','cabinet','rack','stand','sheath','gate','ventilator','frame','carpenter','cabinet maker','wood worker','craftsman','mason','woodman','latch','bolt','hinge','woodjoiner','artificer']
         Water_service = ['water','hard','dirty']
         # Check
         if len (set(Input_tokens) & set(Electricity_Control_room)) > 0:
@@ -55,7 +55,7 @@ class ActionSlot2(Action):
         Input_tokens = word_tokenize(text)
 
         #Bag of words
-        Maid = ['maid','housemaid','maidservant','nursemaid','cleaninglady','cleaningwoman','housekeeper','housecleaner','caretaker','servant','chambermaid','attendent','servingmaid','babysitter','cookmaid','cleaner']
+        Maid = ['maid','house maid','maid servant','nurse maid','cleaning lady','cleaning woman','house keeper','housecleaner','caretaker','servant','chambermaid','attendent','servingmaid','babysitter','cookmaid','cleaner']
         
 
         # Check

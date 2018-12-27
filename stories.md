@@ -36,6 +36,7 @@
 * booking
    - action_slots
 * booking
+   - action_slot_reset
    - action_slots
 * negative
    - utter_negative
@@ -53,6 +54,7 @@
 * booking
    - action_slots
 * booking
+   - action_slot_reset
    - action_slots
 * confirmation
    - utter_datetime
@@ -96,6 +98,7 @@
 * house_service
    - action_slots2
 * house_service
+   - action_slot_reset
    - action_slots2
 * confirmation
    - utter_confirmation

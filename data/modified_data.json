@@ -389,62 +389,6 @@
 - [table](object) legs repair
 - [sofa] (object) arm rest csme out
 - i need a help on carpenting
-
-## intent:house_service
-- smell is coming from the cylinder
-- smelly
-- gas smell
-- Some smell is coming from kitchen
-- I think gas is leaking
-- Cylinder is not working
-- Gas leaking due to regulator problems
-- Gas leakage to washer problem in the cylinder
-- There is a smell coming from the kitchen?
-- I think the gas tube is leaking.
-- There is a lot of smell coming from the cylinder.
-- The seal was broken on delivery
-- I can smell gas even after the connection is secured
-- The gas is leaking even after having closed the supply
-- I think gas is leaking
-- Gas leaking due to regulator problems
-- smell is coming from the cylinder
-- gas smell
-- I think gas is leaking
-- Gas leaking due to regulator problems
-- I think the gas tube is leaking.
-- There is a lot of smell coming from the cylinder.
-- The gas is leaking even after having closed the supply
-- The [maid] (person_maid) has not come today
-- [maid] (person_maid) is not picking up the phone
-- [maid] (person_maid) is making trouble these days
-- [maid] (person_maid) is not good
-- I dont like our [maid] (person_maid)
-- [maid] (person_maid) often taking leave
-- Clothes are not washed properly by the [maid] (person_maid)
-- Food is not tasty
-- The [maid] (person_maid) did not come today
-- my room is not cleaned
-- There is a lack of cleanliness in my room.
-- I need a better [maid] (person_maid) for the kitchen.
-- Where can I look for [maid] (person_maid)?
-- What all services are included?
-- Will they be available as a stay-in [maid] (person_maid)?
-- How do I know that they are trustworthy?
-- Will there be both men and women [maid] (person_maid)s available?
-- Will they be willing to go outside for errands?
-- How much do they charge?
-- Will they be willing to travel willing to travel with us when necessary?
-- Will they wear uniforms if provided?
-- What if i'm not happy with the service provided?
-- The [maid] (person_maid) has not come today
-- I need a better [maid](person_maid) for the kitchen.
-- [maid] (person_maid) is making trouble these days
-- [maid] (person_maid) is not good
-- I dont like our [maid] (person_maid)
-- [maid] (person_maid) often taking leave
-- There is a lack of cleanliness in my room.
-- I need a better [maid] (person_maid) for the kitchen.
-- Will they be available as a stay-in [maid] (person_maid)?
 - i need [water] (substance) [cans] (add_on)
 - no [water] (substance) need [water] (substance) [cans] (add_on)
 - i need [water] (substance) [cans] (add_on)
@@ -467,6 +411,63 @@
 - I need a replacement for the water tubes.
 - There is a need for making a water supply better.
 - water not going
+
+## intent:house_service
+// - smell is coming from the cylinder
+// - smelly
+// - gas smell
+// - Some smell is coming from kitchen
+// - I think gas is leaking
+// - Cylinder is not working
+// - Gas leaking due to regulator problems
+// - Gas leakage to washer problem in the cylinder
+// - There is a smell coming from the kitchen?
+// - I think the gas tube is leaking.
+// - There is a lot of smell coming from the cylinder.
+// - The seal was broken on delivery
+// - I can smell gas even after the connection is secured
+// - The gas is leaking even after having closed the supply
+// - I think gas is leaking
+// - Gas leaking due to regulator problems
+// - smell is coming from the cylinder
+// - gas smell
+// - I think gas is leaking
+// - Gas leaking due to regulator problems
+// - I think the gas tube is leaking.
+// - There is a lot of smell coming from the cylinder.
+// - The gas is leaking even after having closed the supply
+- The [maid] (person_maid) has not come today
+- [house maid] (person_maid) is not picking up the phone
+- [servant] (person_maid) is making trouble these days
+- [cleaning lady] (person_maid) is not good
+- I dont like our [maid] (person_maid)
+- [house keeper] (person_maid) often taking leave
+- Clothes are not washed properly by the [maid] (person_maid)
+- Food is not tasty
+- The [caretaker] (person_maid) did not come today
+- my room is not cleaned
+- There is a lack of cleanliness in my room.
+- I need a better [housecleaner] (person_maid) for the kitchen.
+- Where can I look for [attendent] (person_maid)?
+- What all services are included?
+- Will they be available as a stay-in [maid] (person_maid)?
+- How do I know that they are trustworthy?
+- Will there be both men and women [maid] (person_maid)s available?
+- Will they be willing to go outside for errands?
+- How much do they charge?
+- Will they be willing to travel willing to travel with us when necessary?
+- Will they wear uniforms if provided?
+- What if i'm not happy with the service provided?
+- The [maid] (person_maid) has not come today
+- I need a better [babysitter](person_maid) for the kitchen.
+- [maid] (person_maid) is making trouble these days
+- [cookmaid] (person_maid) is not good
+- I dont like our [chambermaid] (person_maid)
+- [maid] (person_maid) often taking leave
+- There is a lack of cleanliness in my room.
+- I need a better [caretaker] (person_maid) for the kitchen.
+- Will they be available as a stay-in [servingmaid] (person_maid)?
+
 
 ## intent:negative
 - no
