@@ -3,222 +3,6 @@
     "common_examples": [
       {
         "intent": "booking",
-        "text": "[cab] (service) driver not good"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) is bad"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) is in bad condition"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) stopped in middle"
-      },
-      {
-        "intent": "booking",
-        "text": "road middle [cab] (service) stop"
-      },
-      {
-        "intent": "booking",
-        "text": "driver very rude"
-      },
-      {
-        "intent": "booking",
-        "text": "driver dont know route"
-      },
-      {
-        "intent": "booking",
-        "text": "driver going wrong way"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) is costly"
-      },
-      {
-        "intent": "booking",
-        "text": "driver not accepting ride"
-      },
-      {
-        "intent": "booking",
-        "text": "driver dont know english"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) not enough"
-      },
-      {
-        "intent": "booking",
-        "text": "driver fighting"
-      },
-      {
-        "intent": "booking",
-        "text": "rash driving of [cab] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "I want to book a [cab] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "i do not know how to operate [cab] (service) calling apps"
-      },
-      {
-        "intent": "booking",
-        "text": "I cannot book a [cab] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service)s keep cancelling"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) taking too long to come"
-      },
-      {
-        "intent": "booking",
-        "text": "unable to do online payment"
-      },
-      {
-        "intent": "booking",
-        "text": "no [cab] (service) available"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service)s not coming"
-      },
-      {
-        "intent": "booking",
-        "text": "I need to go out"
-      },
-      {
-        "intent": "booking",
-        "text": "I need a driver"
-      },
-      {
-        "intent": "booking",
-        "text": "I need to rent a car"
-      },
-      {
-        "intent": "booking",
-        "text": "I need a [cab] (service) from Velachery to the aura hospital?"
-      },
-      {
-        "intent": "booking",
-        "text": "Can I get a ride from xan to yan?"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I book a [cab] (service)?"
-      },
-      {
-        "intent": "booking",
-        "text": "Can i book a [cab] (service) for long distance/out of station service?"
-      },
-      {
-        "intent": "booking",
-        "text": "What payment options are available?"
-      },
-      {
-        "intent": "booking",
-        "text": "What if the [cab] (service) driver doesn't show up on time?"
-      },
-      {
-        "intent": "booking",
-        "text": "Are there any cancellation charges?"
-      },
-      {
-        "intent": "booking",
-        "text": "Can i book them for anytime of the day?"
-      },
-      {
-        "intent": "booking",
-        "text": "What if I don't like the condition of the [cab] (service) when it arrives?"
-      },
-      {
-        "intent": "booking",
-        "text": "What if I don't like the driver?"
-      },
-      {
-        "intent": "booking",
-        "text": "Will they drop me exactly where I tell them to?"
-      },
-      {
-        "intent": "booking",
-        "text": "Can I choose who I want as my [cab] (service) driver?"
-      },
-      {
-        "intent": "booking",
-        "text": "Are there any reviews for the [cab] (service) drivers?"
-      },
-      {
-        "intent": "booking",
-        "text": "Will I have to pay the toll charges when I take the [cab] (service) for long distance?"
-      },
-      {
-        "intent": "booking",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "book",
-            "entity": "booking"
-          },
-          {
-            "start": 17,
-            "end": 20,
-            "value": "cab",
-            "entity": "service"
-          }
-        ],
-        "text": "I want to book a cab"
-      },
-      {
-        "intent": "booking",
-        "entities": [
-          {
-            "start": 22,
-            "end": 37,
-            "value": " today evening ",
-            "entity": "date"
-          },
-          {
-            "start": 40,
-            "end": 43,
-            "value": "4pm",
-            "entity": "time"
-          }
-        ],
-        "text": "book a [cab] (service) today evening at 4pm"
-      },
-      {
-        "intent": "booking",
-        "text": "I need a driver"
-      },
-      {
-        "intent": "booking",
-        "text": "[cab] (service) book"
-      },
-      {
-        "intent": "booking",
-        "text": "book [cab] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "how can i book a [cab] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "I need a [cab] (service) from Velachery to the aura hospital?"
-      },
-      {
-        "intent": "booking",
-        "text": "book a [cab] (service)"
-      },
-      {
-        "intent": "booking",
         "text": "[ac] (electrical device) is not working"
       },
       {
@@ -1065,190 +849,6 @@
       },
       {
         "intent": "booking",
-        "entities": [
-          {
-            "start": 8,
-            "end": 12,
-            "value": "book",
-            "entity": "booking"
-          },
-          {
-            "start": 15,
-            "end": 18,
-            "value": "gas",
-            "entity": "service"
-          },
-          {
-            "start": 19,
-            "end": 27,
-            "value": "cylinder",
-            "entity": "service"
-          }
-        ],
-        "text": "want to book a gas cylinder"
-      },
-      {
-        "intent": "booking",
-        "entities": [
-          {
-            "start": 22,
-            "end": 25,
-            "value": "gas",
-            "entity": "service"
-          }
-        ],
-        "text": "Someone needs to book gas"
-      },
-      {
-        "intent": "booking",
-        "text": "my [gas] (service) is over"
-      },
-      {
-        "intent": "booking",
-        "text": "want to book a [gas] (service) cylinder"
-      },
-      {
-        "intent": "booking",
-        "text": "Want to book [gas] (service) service"
-      },
-      {
-        "intent": "booking",
-        "text": "need number for [gas] (service) service"
-      },
-      {
-        "intent": "booking",
-        "text": "need to contact [gas] (service) service"
-      },
-      {
-        "intent": "booking",
-        "text": "We ran out of [gas] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "I can not cook"
-      },
-      {
-        "intent": "booking",
-        "text": "How can I cook without [gas] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "Someone needs to book [gas] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I book [gas] (service)?"
-      },
-      {
-        "intent": "booking",
-        "text": "cylinder refill"
-      },
-      {
-        "intent": "booking",
-        "text": "refill of cylinder has to be done"
-      },
-      {
-        "intent": "booking",
-        "text": "Cylinder to be changed"
-      },
-      {
-        "intent": "booking",
-        "text": "How do you expect me to change cylinder myself"
-      },
-      {
-        "intent": "booking",
-        "text": "It would be great if someone changes the cylinder"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I book [gas] (service) cylinders?"
-      },
-      {
-        "intent": "booking",
-        "text": "Will [gas] (service) be delivered to my house?"
-      },
-      {
-        "intent": "booking",
-        "text": "The [gas] (service) cylinder feels half empty"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I find the best [gas] (service) cylinder agent?"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I return a cylinder?"
-      },
-      {
-        "intent": "booking",
-        "text": "Will they give me full refund if I return the cylinder without having broken the seal?"
-      },
-      {
-        "intent": "booking",
-        "text": "Will they collect the cylinder for me?"
-      },
-      {
-        "intent": "booking",
-        "text": "Stove is burning dim"
-      },
-      {
-        "intent": "booking",
-        "text": "[gas] (service) cylinder empty"
-      },
-      {
-        "intent": "booking",
-        "text": "Flames are less in this stove"
-      },
-      {
-        "intent": "booking",
-        "text": "want to book a [gas] (service) cylinder"
-      },
-      {
-        "intent": "booking",
-        "text": "need to contact [gas] (service) service"
-      },
-      {
-        "intent": "booking",
-        "text": "We ran out of [gas] (service)"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I book [gas] (service)?"
-      },
-      {
-        "intent": "booking",
-        "text": "refill of cylinder has to be done"
-      },
-      {
-        "intent": "booking",
-        "text": "Cylinder to be changed"
-      },
-      {
-        "intent": "booking",
-        "text": "How do I book [gas] (service) cylinders?"
-      },
-      {
-        "intent": "booking",
-        "text": "The [gas] (service) cylinder feels half empty"
-      },
-      {
-        "intent": "booking",
-        "text": "[gas] (service) cylinder empty"
-      },
-      {
-        "intent": "booking",
-        "entities": [
-          {
-            "start": 17,
-            "end": 20,
-            "value": "gas",
-            "entity": "service"
-          }
-        ],
-        "text": "i need to book a gas"
-      },
-      {
-        "intent": "booking",
         "text": "[pipe] (bath_utilities) are leaking and flooding all around"
       },
       {
@@ -1814,316 +1414,232 @@
         "text": "i need a help on carpenting"
       },
       {
-        "intent": "house_service",
-        "text": "smell is coming from the cylinder"
-      },
-      {
-        "intent": "house_service",
-        "text": "smelly"
-      },
-      {
-        "intent": "house_service",
-        "text": "gas smell"
-      },
-      {
-        "intent": "house_service",
-        "text": "Some smell is coming from kitchen"
-      },
-      {
-        "intent": "house_service",
-        "text": "I think gas is leaking"
-      },
-      {
-        "intent": "house_service",
-        "text": "Cylinder is not working"
-      },
-      {
-        "intent": "house_service",
-        "text": "Gas leaking due to regulator problems"
-      },
-      {
-        "intent": "house_service",
-        "text": "Gas leakage to washer problem in the cylinder"
-      },
-      {
-        "intent": "house_service",
-        "text": "There is a smell coming from the kitchen?"
-      },
-      {
-        "intent": "house_service",
-        "text": "I think the gas tube is leaking."
-      },
-      {
-        "intent": "house_service",
-        "text": "There is a lot of smell coming from the cylinder."
-      },
-      {
-        "intent": "house_service",
-        "text": "The seal was broken on delivery"
-      },
-      {
-        "intent": "house_service",
-        "text": "I can smell gas even after the connection is secured"
-      },
-      {
-        "intent": "house_service",
-        "text": "The gas is leaking even after having closed the supply"
-      },
-      {
-        "intent": "house_service",
-        "text": "I think gas is leaking"
-      },
-      {
-        "intent": "house_service",
-        "text": "Gas leaking due to regulator problems"
-      },
-      {
-        "intent": "house_service",
-        "text": "smell is coming from the cylinder"
-      },
-      {
-        "intent": "house_service",
-        "text": "gas smell"
-      },
-      {
-        "intent": "house_service",
-        "text": "I think gas is leaking"
-      },
-      {
-        "intent": "house_service",
-        "text": "Gas leaking due to regulator problems"
-      },
-      {
-        "intent": "house_service",
-        "text": "I think the gas tube is leaking."
-      },
-      {
-        "intent": "house_service",
-        "text": "There is a lot of smell coming from the cylinder."
-      },
-      {
-        "intent": "house_service",
-        "text": "The gas is leaking even after having closed the supply"
-      },
-      {
-        "intent": "house_service",
-        "text": "The [maid] (person_maid) has not come today"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) is not picking up the phone"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) is making trouble these days"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) is not good"
-      },
-      {
-        "intent": "house_service",
-        "text": "I dont like our [maid] (person_maid)"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) often taking leave"
-      },
-      {
-        "intent": "house_service",
-        "text": "Clothes are not washed properly by the [maid] (person_maid)"
-      },
-      {
-        "intent": "house_service",
-        "text": "Food is not tasty"
-      },
-      {
-        "intent": "house_service",
-        "text": "The [maid] (person_maid) did not come today"
-      },
-      {
-        "intent": "house_service",
-        "text": "my room is not cleaned"
-      },
-      {
-        "intent": "house_service",
-        "text": "There is a lack of cleanliness in my room."
-      },
-      {
-        "intent": "house_service",
-        "text": "I need a better [maid] (person_maid) for the kitchen."
-      },
-      {
-        "intent": "house_service",
-        "text": "Where can I look for [maid] (person_maid)?"
-      },
-      {
-        "intent": "house_service",
-        "text": "What all services are included?"
-      },
-      {
-        "intent": "house_service",
-        "text": "Will they be available as a stay-in [maid] (person_maid)?"
-      },
-      {
-        "intent": "house_service",
-        "text": "How do I know that they are trustworthy?"
-      },
-      {
-        "intent": "house_service",
-        "text": "Will there be both men and women [maid] (person_maid)s available?"
-      },
-      {
-        "intent": "house_service",
-        "text": "Will they be willing to go outside for errands?"
-      },
-      {
-        "intent": "house_service",
-        "text": "How much do they charge?"
-      },
-      {
-        "intent": "house_service",
-        "text": "Will they be willing to travel willing to travel with us when necessary?"
-      },
-      {
-        "intent": "house_service",
-        "text": "Will they wear uniforms if provided?"
-      },
-      {
-        "intent": "house_service",
-        "text": "What if i'm not happy with the service provided?"
-      },
-      {
-        "intent": "house_service",
-        "text": "The [maid] (person_maid) has not come today"
-      },
-      {
-        "intent": "house_service",
-        "entities": [
-          {
-            "start": 16,
-            "end": 20,
-            "value": "maid",
-            "entity": "person_maid"
-          }
-        ],
-        "text": "I need a better maid for the kitchen."
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) is making trouble these days"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) is not good"
-      },
-      {
-        "intent": "house_service",
-        "text": "I dont like our [maid] (person_maid)"
-      },
-      {
-        "intent": "house_service",
-        "text": "[maid] (person_maid) often taking leave"
-      },
-      {
-        "intent": "house_service",
-        "text": "There is a lack of cleanliness in my room."
-      },
-      {
-        "intent": "house_service",
-        "text": "I need a better [maid] (person_maid) for the kitchen."
-      },
-      {
-        "intent": "house_service",
-        "text": "Will they be available as a stay-in [maid] (person_maid)?"
-      },
-      {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "i need [water] (substance) [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "no [water] (substance) need [water] (substance) [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "i need [water] (substance) [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "Someone has to change the [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "We ran out of [drinking] (add_on) [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "i need to refill [water] (substance) [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "refill [cans] (add_on)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "I did not get a [water] (substance) refill today"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[Dirty] (w_service) [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[water] (substance) is too [hard] (w_service)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[water] (substance) is not [good] (w_service)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "more [dust] (w_service) in [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[dirty] (w_service) [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[water] (substance) quality is not [good] (w_service)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "There is [mud] (w_service) in the [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "[water] (substance) is too [hard] (w_service)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "Smell in the [water] (substance)"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "I need a water repair service"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "when do I get the water service back"
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "I need a replacement for the water tubes."
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "There is a need for making a water supply better."
       },
       {
-        "intent": "house_service",
+        "intent": "booking",
         "text": "water not going"
+      },
+      {
+        "intent": "booking",
+        "text": "The [maid] (person_maid) has not come today"
+      },
+      {
+        "intent": "booking",
+        "text": "[house maid] (person_maid) is not picking up the phone"
+      },
+      {
+        "intent": "booking",
+        "text": "[servant] (person_maid) is making trouble these days"
+      },
+      {
+        "intent": "booking",
+        "text": "[cleaning lady] (person_maid) is not good"
+      },
+      {
+        "intent": "booking",
+        "text": "I dont like our [maid] (person_maid)"
+      },
+      {
+        "intent": "booking",
+        "text": "[house keeper] (person_maid) often taking leave"
+      },
+      {
+        "intent": "booking",
+        "text": "Clothes are not washed properly by the [maid] (person_maid)"
+      },
+      {
+        "intent": "booking",
+        "text": "Food is not tasty"
+      },
+      {
+        "intent": "booking",
+        "text": "The [caretaker] (person_maid) did not come today"
+      },
+      {
+        "intent": "booking",
+        "text": "my room is not cleaned"
+      },
+      {
+        "intent": "booking",
+        "text": "There is a lack of cleanliness in my room."
+      },
+      {
+        "intent": "booking",
+        "text": "I need a better [housecleaner] (person_maid) for the kitchen."
+      },
+      {
+        "intent": "booking",
+        "text": "Where can I look for [attendent] (person_maid)?"
+      },
+      {
+        "intent": "booking",
+        "text": "What all services are included?"
+      },
+      {
+        "intent": "booking",
+        "text": "Will they be available as a stay-in [maid] (person_maid)?"
+      },
+      {
+        "intent": "booking",
+        "text": "How do I know that they are trustworthy?"
+      },
+      {
+        "intent": "booking",
+        "text": "Will there be both men and women [maid] (person_maid)s available?"
+      },
+      {
+        "intent": "booking",
+        "text": "Will they be willing to go outside for errands?"
+      },
+      {
+        "intent": "booking",
+        "text": "How much do they charge?"
+      },
+      {
+        "intent": "booking",
+        "text": "Will they be willing to travel willing to travel with us when necessary?"
+      },
+      {
+        "intent": "booking",
+        "text": "Will they wear uniforms if provided?"
+      },
+      {
+        "intent": "booking",
+        "text": "What if i'm not happy with the service provided?"
+      },
+      {
+        "intent": "booking",
+        "text": "The [maid] (person_maid) has not come today"
+      },
+      {
+        "intent": "booking",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "babysitter",
+            "entity": "person_maid"
+          }
+        ],
+        "text": "I need a better babysitter for the kitchen."
+      },
+      {
+        "intent": "booking",
+        "text": "[maid] (person_maid) is making trouble these days"
+      },
+      {
+        "intent": "booking",
+        "text": "[cookmaid] (person_maid) is not good"
+      },
+      {
+        "intent": "booking",
+        "text": "i need a [servant] (person_maid)"
+      },
+      {
+        "intent": "booking",
+        "text": "wanted a [servant] (person_maid)to my room"
+      },
+      {
+        "intent": "booking",
+        "text": "I dont like our [chambermaid] (person_maid)"
+      },
+      {
+        "intent": "booking",
+        "text": "[maid] (person_maid) often taking leave"
+      },
+      {
+        "intent": "booking",
+        "text": "There is a lack of cleanliness in my room."
+      },
+      {
+        "intent": "booking",
+        "text": "I need a better [caretaker] (person_maid) for the kitchen."
+      },
+      {
+        "intent": "booking",
+        "text": "Will they be available as a stay-in [servingmaid] (person_maid)?"
       },
       {
         "intent": "negative",
@@ -2563,6 +2079,10 @@
       },
       {
         "intent": "confirmation",
+        "text": "s"
+      },
+      {
+        "intent": "confirmation",
         "text": "ohkay"
       },
       {
@@ -2667,7 +2187,7 @@
       },
       {
         "intent": "date_time",
-        "text": "next friday at 3 pm time"
+        "text": "next friday at 3 p.m."
       },
       {
         "intent": "date_time",
@@ -2680,12 +2200,12 @@
           },
           {
             "start": 17,
-            "end": 20,
-            "value": "4pm",
+            "end": 23,
+            "value": "4 p.m.",
             "entity": "time"
           }
         ],
-        "text": "Today evening at 4pm"
+        "text": "Today evening at 4 p.m."
       },
       {
         "intent": "date_time",
@@ -2697,7 +2217,7 @@
             "entity": "date"
           }
         ],
-        "text": "today at 2 noon"
+        "text": "today at 12 noon"
       },
       {
         "intent": "date_time",
@@ -2739,7 +2259,7 @@
             "entity": "date"
           }
         ],
-        "text": "can you schedule by next saturday at 3 pm"
+        "text": "can you schedule by next saturday at 7 p.m."
       },
       {
         "intent": "date_time",
@@ -2756,16 +2276,28 @@
           },
           {
             "start": 19,
-            "end": 23,
-            "value": "four",
+            "end": 20,
+            "value": "9",
             "entity": "time"
           }
         ],
-        "text": "coming thursday at four pm"
+        "text": "coming thursday at 9 p.m."
       },
       {
         "intent": "date_time",
         "text": "today evening"
+      },
+      {
+        "intent": "date_time",
+        "text": "tomorrow at 1 p.m"
+      },
+      {
+        "intent": "A_restart",
+        "text": "actionrestart"
+      },
+      {
+        "intent": "A_restart",
+        "text": "actionrestart everything"
       }
     ],
     "regex_features": [],

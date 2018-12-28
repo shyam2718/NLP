@@ -21,7 +21,7 @@ if __name__ == '__main__':
  
         # agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
         agent = Agent(domain_file,
-                      policies=[MemoizationPolicy(), KerasPolicy(epochs = 50)],
+                      policies=[MemoizationPolicy(), KerasPolicy(epochs = 500)],
                       interpreter=interpreter,
                       action_endpoint=action_endpoint)
 

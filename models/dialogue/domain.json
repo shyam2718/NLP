@@ -1,5 +1,6 @@
 {
   "states": [
+    "intent_A_restart",
     "intent_booking",
     "intent_confirmation",
     "intent_date_time",
@@ -51,6 +52,8 @@
     "prev_utter_changeofservice",
     "prev_utter_greet",
     "prev_utter_ask_confirmation",
-    "prev_utter_negative"
+    "prev_utter_negative",
+    "prev_utter_consult",
+    "prev_utter_open_contacts"
   ]
 }

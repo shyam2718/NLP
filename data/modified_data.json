@@ -1,51 +1,51 @@
 ## intent:booking
-- [cab] (service) driver not good
-- [cab] (service) is bad
-- [cab] (service) is in bad condition
-- [cab] (service) stopped in middle
-- road middle [cab] (service) stop
-- driver very rude
-- driver dont know route
-- driver going wrong way
-- [cab] (service) is costly
-- driver not accepting ride
-- driver dont know english
-- [cab] (service) not enough
-- driver fighting
-- rash driving of [cab] (service)
-- I want to book a [cab] (service)
-- i do not know how to operate [cab] (service) calling apps
-- I cannot book a [cab] (service)
-- [cab] (service)s keep cancelling
-- [cab] (service) taking too long to come
-- unable to do online payment
-- no [cab] (service) available
-- [cab] (service)s not coming
-- I need to go out
-- I need a driver
-- I need to rent a car
-- I need a [cab] (service) from Velachery to the aura hospital?
-- Can I get a ride from xan to yan?
-- How do I book a [cab] (service)?
-- Can i book a [cab] (service) for long distance/out of station service?
-- What payment options are available?
-- What if the [cab] (service) driver doesn't show up on time?
-- Are there any cancellation charges?
-- Can i book them for anytime of the day?
-- What if I don't like the condition of the [cab] (service) when it arrives?
-- What if I don't like the driver?
-- Will they drop me exactly where I tell them to?
-- Can I choose who I want as my [cab] (service) driver?
-- Are there any reviews for the [cab] (service) drivers?
-- Will I have to pay the toll charges when I take the [cab] (service) for long distance?
-- I want to [book](booking) a [cab](service)
-- book a [cab] (service)[ today evening ](date)at [4pm](time)
-- I need a driver
-- [cab] (service) book
-- book [cab] (service)
-- how can i book a [cab] (service)
-- I need a [cab] (service) from Velachery to the aura hospital?
-- book a [cab] (service)
+// - [cab] (service) driver not good
+// - [cab] (service) is bad
+// - [cab] (service) is in bad condition
+// - [cab] (service) stopped in middle
+// - road middle [cab] (service) stop
+// - driver very rude
+// - driver dont know route
+// - driver going wrong way
+// - [cab] (service) is costly
+// - driver not accepting ride
+// - driver dont know english
+// - [cab] (service) not enough
+// - driver fighting
+// - rash driving of [cab] (service)
+// - I want to book a [cab] (service)
+// - i do not know how to operate [cab] (service) calling apps
+// - I cannot book a [cab] (service)
+// - [cab] (service)s keep cancelling
+// - [cab] (service) taking too long to come
+// - unable to do online payment
+// - no [cab] (service) available
+// - [cab] (service)s not coming
+// - I need to go out
+// - I need a driver
+// - I need to rent a car
+// - I need a [cab] (service) from Velachery to the aura hospital?
+// - Can I get a ride from xan to yan?
+// - How do I book a [cab] (service)?
+// - Can i book a [cab] (service) for long distance/out of station service?
+// - What payment options are available?
+// - What if the [cab] (service) driver doesn't show up on time?
+// - Are there any cancellation charges?
+// - Can i book them for anytime of the day?
+// - What if I don't like the condition of the [cab] (service) when it arrives?
+// - What if I don't like the driver?
+// - Will they drop me exactly where I tell them to?
+// - Can I choose who I want as my [cab] (service) driver?
+// - Are there any reviews for the [cab] (service) drivers?
+// - Will I have to pay the toll charges when I take the [cab] (service) for long distance?
+// - I want to [book](booking) a [cab](service)
+// - book a [cab] (service)[ today evening ](date)at [4pm](time)
+// - I need a driver
+// - [cab] (service) book
+// - book [cab] (service)
+// - how can i book a [cab] (service)
+// - I need a [cab] (service) from Velachery to the aura hospital?
+// - book a [cab] (service)
 - [ac] (electrical device) is not working
 - [light](electrical device) are dim
 - [ac] (electrical device) is not working
@@ -224,43 +224,43 @@
 - there is some problem with [ac](electrical device)
 - problem in [geyser](electrical device)
 - some issues in [fan](electrical device)
-- want to [book](booking) a [gas](service) [cylinder](service)
-- Someone needs to book [gas](service)
-- my [gas] (service) is over
-- want to book a [gas] (service) cylinder
-- Want to book [gas] (service) service
-- need number for [gas] (service) service
-- need to contact [gas] (service) service
-- We ran out of [gas] (service)
-- I can not cook
-- How can I cook without [gas] (service)
-- Someone needs to book [gas] (service)
-- How do I book [gas] (service)?
-- cylinder refill
-- refill of cylinder has to be done
-- Cylinder to be changed
-- How do you expect me to change cylinder myself
-- It would be great if someone changes the cylinder
-- How do I book [gas] (service) cylinders?
-- Will [gas] (service) be delivered to my house?
-- The [gas] (service) cylinder feels half empty
-- How do I find the best [gas] (service) cylinder agent?
-- How do I return a cylinder?
-- Will they give me full refund if I return the cylinder without having broken the seal?
-- Will they collect the cylinder for me?
-- Stove is burning dim
-- [gas] (service) cylinder empty
-- Flames are less in this stove
-- want to book a [gas] (service) cylinder
-- need to contact [gas] (service) service
-- We ran out of [gas] (service)
-- How do I book [gas] (service)?
-- refill of cylinder has to be done
-- Cylinder to be changed
-- How do I book [gas] (service) cylinders?
-- The [gas] (service) cylinder feels half empty
-- [gas] (service) cylinder empty
-- i need to book a [gas](service)
+// - want to [book](booking) a [gas](service) [cylinder](service)
+// - Someone needs to book [gas](service)
+// - my [gas] (service) is over
+// - want to book a [gas] (service) cylinder
+// - Want to book [gas] (service) service
+// - need number for [gas] (service) service
+// - need to contact [gas] (service) service
+// - We ran out of [gas] (service)
+// - I can not cook
+// - How can I cook without [gas] (service)
+// - Someone needs to book [gas] (service)
+// - How do I book [gas] (service)?
+// - cylinder refill
+// - refill of cylinder has to be done
+// - Cylinder to be changed
+// - How do you expect me to change cylinder myself
+// - It would be great if someone changes the cylinder
+// - How do I book [gas] (service) cylinders?
+// - Will [gas] (service) be delivered to my house?
+// - The [gas] (service) cylinder feels half empty
+// - How do I find the best [gas] (service) cylinder agent?
+// - How do I return a cylinder?
+// - Will they give me full refund if I return the cylinder without having broken the seal?
+// - Will they collect the cylinder for me?
+// - Stove is burning dim
+// - [gas] (service) cylinder empty
+// - Flames are less in this stove
+// - want to book a [gas] (service) cylinder
+// - need to contact [gas] (service) service
+// - We ran out of [gas] (service)
+// - How do I book [gas] (service)?
+// - refill of cylinder has to be done
+// - Cylinder to be changed
+// - How do I book [gas] (service) cylinders?
+// - The [gas] (service) cylinder feels half empty
+// - [gas] (service) cylinder empty
+// - i need to book a [gas](service)
 - [pipe] (bath_utilities) are leaking and flooding all around
 - water [pipe] (bath_utilities) leakage
 - [pipe] (bath_utilities) broke
@@ -411,31 +411,6 @@
 - I need a replacement for the water tubes.
 - There is a need for making a water supply better.
 - water not going
-
-## intent:house_service
-// - smell is coming from the cylinder
-// - smelly
-// - gas smell
-// - Some smell is coming from kitchen
-// - I think gas is leaking
-// - Cylinder is not working
-// - Gas leaking due to regulator problems
-// - Gas leakage to washer problem in the cylinder
-// - There is a smell coming from the kitchen?
-// - I think the gas tube is leaking.
-// - There is a lot of smell coming from the cylinder.
-// - The seal was broken on delivery
-// - I can smell gas even after the connection is secured
-// - The gas is leaking even after having closed the supply
-// - I think gas is leaking
-// - Gas leaking due to regulator problems
-// - smell is coming from the cylinder
-// - gas smell
-// - I think gas is leaking
-// - Gas leaking due to regulator problems
-// - I think the gas tube is leaking.
-// - There is a lot of smell coming from the cylinder.
-// - The gas is leaking even after having closed the supply
 - The [maid] (person_maid) has not come today
 - [house maid] (person_maid) is not picking up the phone
 - [servant] (person_maid) is making trouble these days
@@ -462,6 +437,8 @@
 - I need a better [babysitter](person_maid) for the kitchen.
 - [maid] (person_maid) is making trouble these days
 - [cookmaid] (person_maid) is not good
+- i need a [servant] (person_maid)
+- wanted a [servant] (person_maid)to my room 
 - I dont like our [chambermaid] (person_maid)
 - [maid] (person_maid) often taking leave
 - There is a lack of cleanliness in my room.
@@ -583,6 +560,7 @@
 - k
 - Done
 - thank you
+- s
 - ohkay
 - sure
 - yes
@@ -613,16 +591,43 @@
 - thank you
 
 ## intent:date_time
-- next friday at 3 pm time
-- [Today evening](date) at [4pm](time)
-- [today](date) at 2 noon
+- next friday at 3 p.m. 
+- [Today evening](date) at [4 p.m.](time)
+- [today](date) at 12 noon
 - [tomorrow](date) [evening](time)
 - by next [friday](date)
-- can you schedule by next [saturday](date) at 3 pm
+- can you schedule by next [saturday](date) at 7 p.m.
 - any time today
-- coming [thursday](date) at [four](time) pm
+- coming [thursday](date) at [9](time) p.m.
 - today evening
+- tomorrow at 1 p.m
 
 ## intent:A_restart
 - actionrestart
 - actionrestart everything
+
+
+
+// - smell is coming from the cylinder
+// - smelly
+// - gas smell
+// - Some smell is coming from kitchen
+// - I think gas is leaking
+// - Cylinder is not working
+// - Gas leaking due to regulator problems
+// - Gas leakage to washer problem in the cylinder
+// - There is a smell coming from the kitchen?
+// - I think the gas tube is leaking.
+// - There is a lot of smell coming from the cylinder.
+// - The seal was broken on delivery
+// - I can smell gas even after the connection is secured
+// - The gas is leaking even after having closed the supply
+// - I think gas is leaking
+// - Gas leaking due to regulator problems
+// - smell is coming from the cylinder
+// - gas smell
+// - I think gas is leaking
+// - Gas leaking due to regulator problems
+// - I think the gas tube is leaking.
+// - There is a lot of smell coming from the cylinder.
+// - The gas is leaking even after having closed the supply

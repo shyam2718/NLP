@@ -1,27 +1,14 @@
 ## story_001
 * greet
    - utter_greet
-## story_002
-* booking
-   - action_slots
-## story_003
-* house_service
-   - action_slots2
-## story_004
-* confirmation
-   - utter_confirmation
-## story_005
-* final
-   - utter_final
-## story_006
-* date_time
-   - utter_ask_confirmation
 
 ## story_007
 * greet
    - utter_greet
 * booking
    - action_slots
+* confirmation
+   - utter_consult
 * confirmation
    - utter_datetime
 * date_time
@@ -43,11 +30,22 @@
 * booking
    - action_slots
 * confirmation
-   - utter_datetime
-* date_time
-   - utter_ask_confirmation
+   - utter_consult   
+* negative
+   - utter_open_contacts
+   - action_restart
+
+## story_008v2
+* booking
+   - action_slots
+* negative
+   - utter_negative
+* booking
+   - action_slots
 * confirmation
-   - utter_confirmation
+   - utter_consult   
+* negative
+   - utter_open_contacts
    - action_restart
 
 ## story_009
@@ -56,6 +54,8 @@
 * booking
    - action_slot_reset
    - action_slots
+* confirmation
+   - utter_consult
 * confirmation
    - utter_datetime
 * date_time
@@ -66,7 +66,7 @@
    - action_slot_reset
    - utter_negative
 * house_service
-   - action_slots2
+   - action_slots
 * confirmation
    - utter_confirmation
    - action_restart
@@ -74,6 +74,8 @@
 ## story_010
 * booking
    - action_slots
+* confirmation
+   - utter_consult
 * confirmation
    - utter_datetime
 * date_time
@@ -95,11 +97,11 @@
 ## story_012
 * greet
    - utter_greet
-* house_service
-   - action_slots2
-* house_service
+* booking
+   - action_slots
+* booking
    - action_slot_reset
-   - action_slots2
+   - action_slots
 * confirmation
    - utter_confirmation
 * final
@@ -107,21 +109,21 @@
    - action_restart
 
 ## story_013
-* house_service
-   - action_slots2
-* house_service
-   - action_slots2
+* booking
+   - action_slots
+* booking
+   - action_slots
 * negative
    - utter_negative
-* house_service
-   - action_slots2 
+* booking
+   - action_slots
 * confirmation
    - utter_confirmation
    - action_restart
 
 ## story_014
-* house_service
-   - action_slots2
+* booking
+   - action_slots
 * negative
    - utter_negative
 * booking
@@ -133,3 +135,4 @@
 * confirmation
    - utter_confirmation
    - action_restart
+

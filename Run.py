@@ -23,11 +23,11 @@ if __name__ == '__main__':
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
 
-    # agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
+    agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
     agent = Agent(domain_file,
-                    policies=[MemoizationPolicy(), KerasPolicy(epochs = 500)],
-                    interpreter=interpreter)
-                    # action_endpoint=action_endpoint)
+                    policies=[MemoizationPolicy(), KerasPolicy(epochs = 1000)],
+                    interpreter=interpreter,
+                    action_endpoint=action_endpoint)
                 
     train_data = agent.load_data(training_data_file)
     agent.train(train_data,
@@ -62,13 +62,24 @@ if __name__ == '__main__':
 
 
     def get_meth(data,T_agent):
-        responses = T_agent.handle_text(data)
-        
-        for response in responses:
-            result = response["text"]
+
+        if data == None:
+            print('Received None')
+        else:
+            data1 = data.split("$")
+            data2 = data1[0]
+
+            if data2 == 'actionrestart':
+                #  db.child("ash").child("ashServer").set("System Restarting")
+                print("...")
             
-        # IF result is not set:
-        db.child("ash").child("ashServer").set(result)
+            else:
+                responses = T_agent.handle_text(data2)
+                for response in responses:
+                    result = response["text"]
+                
+                # IF result is not set:
+                db.child("ashServer").set(result)
 
         return
 
@@ -80,4 +91,4 @@ if __name__ == '__main__':
         current_data = message["data"]
         get_meth(current_data,T_agent)
 
-    my_stream = db.child("ash").child("ashClient").stream(stream_handler)
+    my_stream = db.child("ashClient").stream(stream_handler)

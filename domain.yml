@@ -19,6 +19,8 @@ actions:
 - utter_greet
 - utter_ask_confirmation
 - utter_negative
+- utter_consult
+- utter_open_contacts
 
 config:
   store_entities_as_slots: true
@@ -47,6 +49,7 @@ intents:
 - final
 - A_restart
 - house_service
+
 slots:
   add_on:
     auto_fill: true
@@ -107,3 +110,7 @@ templates:
   - text: Problem with maid
   utter_negative:
   - text: what else can i do for u
+  utter_consult:
+  - text: Do you report it to control room(Press yes) or book outsiders(Press no)? 
+  utter_open_contacts:
+  - text: contacts

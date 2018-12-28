@@ -19,6 +19,8 @@ actions:
 - utter_greet
 - utter_ask_confirmation
 - utter_negative
+- utter_consult
+- utter_open_contacts
 config:
   store_entities_as_slots: true
 entities:
@@ -49,6 +51,8 @@ intents:
 - negative:
     use_entities: true
 - final:
+    use_entities: true
+- A_restart:
     use_entities: true
 - house_service:
     use_entities: true
@@ -105,6 +109,8 @@ templates:
   - text: Cool! Thanks for the confirmation !! we will do the need for you. Service
       we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing,
       Water, Maid|
+  utter_consult:
+  - text: Do you report it to control room(Press yes) or book outsiders(Press no)?
   utter_datetime:
   - text: Can you suggest a workable date and time for booking your need
   - text: I can book for you. please provide me with your workable date and time
@@ -124,3 +130,5 @@ templates:
   - text: Problem with maid
   utter_negative:
   - text: what else can i do for u
+  utter_open_contacts:
+  - text: contacts
