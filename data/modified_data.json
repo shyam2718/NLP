@@ -438,6 +438,12 @@
 - coming [thursday](date) at [9](time) p.m.
 - today evening
 - tomorrow at 1 p.m
+- tomorrow at 3 p.m.
+- today at 7 a.m.
+- tomorrow evening 
+- tomorrow morning
+- today night 
+- tomorrow at 4 p.m.
 - [tomorrow at 4 pm](time:2018-12-30T16:00:00.000Z)[4 pm](time)[4](number:4.0)[4](distance:4.0)[4](volume:4.0)[4](temperature:4.0) pm
 
 ## intent:final

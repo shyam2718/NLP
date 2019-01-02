@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 import nltk
 from nltk.corpus import wordnet
+import  requests
+import json
 
 
 from rasa_core_sdk import Action
@@ -58,8 +60,29 @@ class ActionSlot1(Action):
         return stat
 
     def search_dictionary(self,input_words):
+        
+        app_id = '87d6621d'
+        app_key = '086226e56a258a8179ccf5adc8b8071e'
+        language = 'en'
+        
         BoW = []
+       
         for iwords in input_words:
+            
+            #Oxford
+            url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + '/' + iwords.lower() + '/synonyms'
+            r = requests.get(url, headers = {'app_id' : app_id, 'app_key' : app_key})
+            Error_check = str(r)
+            
+            if Error_check == '<Response [404]>':
+                print('Input word has not alternate dict : {}'.format(iwords))
+            else:
+                t1 = json.loads(r.text)
+                lest= t1['results'][0]['lexicalEntries'][0]['entries'][0]['senses'][0]['synonyms']
+                for i in range(len(lest)):
+                    BoW.append( lest[i]['id'] )
+
+            #Wordnet - NLTK
             for syn in wordnet.synsets(iwords):
                 for l in syn.lemmas():
                     BoW.append(l.name())
@@ -69,7 +92,9 @@ class ActionSlot1(Action):
     def stem_sentence(self,data):
         stemmer = nltk.PorterStemmer()
         Stemmed_Input_tokens = [stemmer.stem(word) for word in data]
+
         return Stemmed_Input_tokens
+
 
     def run(self, dispatcher, tracker, domain):
 

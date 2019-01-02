@@ -2029,6 +2029,30 @@
       },
       {
         "intent": "date_time",
+        "text": "tomorrow at 3 p.m."
+      },
+      {
+        "intent": "date_time",
+        "text": "today at 7 a.m."
+      },
+      {
+        "intent": "date_time",
+        "text": "tomorrow evening"
+      },
+      {
+        "intent": "date_time",
+        "text": "tomorrow morning"
+      },
+      {
+        "intent": "date_time",
+        "text": "today night"
+      },
+      {
+        "intent": "date_time",
+        "text": "tomorrow at 4 p.m."
+      },
+      {
+        "intent": "date_time",
         "entities": [
           {
             "start": 0,

@@ -101,7 +101,7 @@ templates:
   utter_alternate:
   - text: Sorry! I couldnt understand you
   utter_ask_confirmation:
-  - text: You have requested for the service at @{time}@. Can I go ahead for booking?
+  - text: You have requested for the service @{time}@. Can I go ahead for booking?
   utter_changeofservice:
   - text: You are currently processing a service!.Do you want to change the service(press
       yes) or change timing of current service(press No)?

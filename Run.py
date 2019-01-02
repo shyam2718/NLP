@@ -24,22 +24,22 @@ if __name__ == '__main__':
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
 
-    # agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
-    # agent = Agent(domain_file,
-    #                 policies=[MemoizationPolicy(), KerasPolicy(epochs = 1000)],
-    #                 interpreter=interpreter,
-    #                 action_endpoint=action_endpoint)
+    agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
+    agent = Agent(domain_file,
+                    policies=[MemoizationPolicy(), KerasPolicy(epochs = 1000)],
+                    interpreter=interpreter,
+                    action_endpoint=action_endpoint)
                 
-    # train_data = agent.load_data(training_data_file)
-    # agent.train(train_data,
-    #             augmentation_factor = 50,
-    #             # max_history = 3,
-    #             # epochs = 500,
-    #             # batch_size = 2,
-    #             validation_split = 0.1)			
+    train_data = agent.load_data(training_data_file)
+    agent.train(train_data,
+                augmentation_factor = 50,
+                # max_history = 3,
+                # epochs = 500,
+                # batch_size = 2,
+                validation_split = 0.1)			
     
-    # # Save the model
-    # agent.persist(model_path)
+    # Save the model
+    agent.persist(model_path)
     
 
     #Loading the model
