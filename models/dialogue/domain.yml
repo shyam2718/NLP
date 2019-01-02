@@ -1,54 +1,54 @@
 %YAML 1.1
 ---
 actions:
-- utter_plumbing
-- utter_electricity
-- utter_gas_leakage
-- utter_alternate
-- utter_datetime
-- action_slot_reset
-- utter_addcans
-- action_slots2
 - utter_book_cab_or_gas
-- utter_final
-- utter_carpenter_service
-- utter_maid
-- action_slots
-- utter_confirmation
 - utter_changeofservice
-- utter_greet
+- action_slot_reset
 - utter_ask_confirmation
 - utter_negative
+- action_slots
 - utter_consult
+- utter_confirmation
+- utter_final
+- utter_gas_leakage
+- utter_addcans
+- utter_maid
+- utter_alternate
+- utter_greet
+- utter_electricity
+- action_slots2
+- utter_carpenter_service
+- utter_datetime
 - utter_open_contacts
+- utter_plumbing
 config:
   store_entities_as_slots: true
 entities:
-- w_service
-- number
-- electrical device
 - date
-- time
-- temperature
-- person_maid
 - add_on
+- time
 - distance
-- bath_utilities
-- substance
+- w_service
+- temperature
+- electrical device
 - service
-- object
+- person_maid
 - volume
+- bath_utilities
+- number
+- substance
+- object
 forms: []
 intents:
-- booking:
-    use_entities: true
-- greet:
+- confirmation:
     use_entities: true
 - date_time:
     use_entities: true
-- confirmation:
+- booking:
     use_entities: true
 - negative:
+    use_entities: true
+- greet:
     use_entities: true
 - final:
     use_entities: true

@@ -1,51 +1,4 @@
 ## intent:booking
-// - [cab] (service) driver not good
-// - [cab] (service) is bad
-// - [cab] (service) is in bad condition
-// - [cab] (service) stopped in middle
-// - road middle [cab] (service) stop
-// - driver very rude
-// - driver dont know route
-// - driver going wrong way
-// - [cab] (service) is costly
-// - driver not accepting ride
-// - driver dont know english
-// - [cab] (service) not enough
-// - driver fighting
-// - rash driving of [cab] (service)
-// - I want to book a [cab] (service)
-// - i do not know how to operate [cab] (service) calling apps
-// - I cannot book a [cab] (service)
-// - [cab] (service)s keep cancelling
-// - [cab] (service) taking too long to come
-// - unable to do online payment
-// - no [cab] (service) available
-// - [cab] (service)s not coming
-// - I need to go out
-// - I need a driver
-// - I need to rent a car
-// - I need a [cab] (service) from Velachery to the aura hospital?
-// - Can I get a ride from xan to yan?
-// - How do I book a [cab] (service)?
-// - Can i book a [cab] (service) for long distance/out of station service?
-// - What payment options are available?
-// - What if the [cab] (service) driver doesn't show up on time?
-// - Are there any cancellation charges?
-// - Can i book them for anytime of the day?
-// - What if I don't like the condition of the [cab] (service) when it arrives?
-// - What if I don't like the driver?
-// - Will they drop me exactly where I tell them to?
-// - Can I choose who I want as my [cab] (service) driver?
-// - Are there any reviews for the [cab] (service) drivers?
-// - Will I have to pay the toll charges when I take the [cab] (service) for long distance?
-// - I want to [book](booking) a [cab](service)
-// - book a [cab] (service)[ today evening ](date)at [4pm](time)
-// - I need a driver
-// - [cab] (service) book
-// - book [cab] (service)
-// - how can i book a [cab] (service)
-// - I need a [cab] (service) from Velachery to the aura hospital?
-// - book a [cab] (service)
 - [ac] (electrical device) is not working
 - [light](electrical device) are dim
 - [ac] (electrical device) is not working
@@ -224,43 +177,6 @@
 - there is some problem with [ac](electrical device)
 - problem in [geyser](electrical device)
 - some issues in [fan](electrical device)
-// - want to [book](booking) a [gas](service) [cylinder](service)
-// - Someone needs to book [gas](service)
-// - my [gas] (service) is over
-// - want to book a [gas] (service) cylinder
-// - Want to book [gas] (service) service
-// - need number for [gas] (service) service
-// - need to contact [gas] (service) service
-// - We ran out of [gas] (service)
-// - I can not cook
-// - How can I cook without [gas] (service)
-// - Someone needs to book [gas] (service)
-// - How do I book [gas] (service)?
-// - cylinder refill
-// - refill of cylinder has to be done
-// - Cylinder to be changed
-// - How do you expect me to change cylinder myself
-// - It would be great if someone changes the cylinder
-// - How do I book [gas] (service) cylinders?
-// - Will [gas] (service) be delivered to my house?
-// - The [gas] (service) cylinder feels half empty
-// - How do I find the best [gas] (service) cylinder agent?
-// - How do I return a cylinder?
-// - Will they give me full refund if I return the cylinder without having broken the seal?
-// - Will they collect the cylinder for me?
-// - Stove is burning dim
-// - [gas] (service) cylinder empty
-// - Flames are less in this stove
-// - want to book a [gas] (service) cylinder
-// - need to contact [gas] (service) service
-// - We ran out of [gas] (service)
-// - How do I book [gas] (service)?
-// - refill of cylinder has to be done
-// - Cylinder to be changed
-// - How do I book [gas] (service) cylinders?
-// - The [gas] (service) cylinder feels half empty
-// - [gas] (service) cylinder empty
-// - i need to book a [gas](service)
 - [pipe] (bath_utilities) are leaking and flooding all around
 - water [pipe] (bath_utilities) leakage
 - [pipe] (bath_utilities) broke
@@ -270,9 +186,7 @@
 - [pipe] (bath_utilities) blocked
 - drainage over flowing
 - [sink] (bath_utilities) over flowing
-// - water not going
 - motor not working
-// - motor running but no water
 - need plumber
 - drainage [pipe] (bath_utilities) damaged
 - leaking [pipe] (bath_utilities)
@@ -297,10 +211,6 @@
 - how do I fix on this valve
 - Insufficient water pressure for flow
 - There is water leakage every now and then.
-// - I need a water repair service
-// - when do I get the water service back
-// - I need a replacement for the water tubes.
-// - There is a need for making a water supply better.
 - How do I book for a plumbing service?
 - Can I ask them to come for service at a particular time?
 - What if I'm not happy with their work?
@@ -438,84 +348,15 @@
 - [maid] (person_maid) is making trouble these days
 - [cookmaid] (person_maid) is not good
 - i need a [servant] (person_maid)
-- wanted a [servant] (person_maid)to my room 
+- wanted a [servant] (person_maid)to my room
 - I dont like our [chambermaid] (person_maid)
 - [maid] (person_maid) often taking leave
 - There is a lack of cleanliness in my room.
 - I need a better [caretaker] (person_maid) for the kitchen.
 - Will they be available as a stay-in [servingmaid] (person_maid)?
-
-
-## intent:negative
-- no
-- dont want
-- not required
-- not necessary
-- not exactly
-- i dont wish that
-
-## intent:greet
-- hello
-- hi
-- hi
-- hello
-- hi how are you
-- hello good morning
-- hi good morning
-- hello good evening
-- hi good afternoon
-- hi good evening
-- hello customer care
-- hello hello
-- aa hii
-- hello hi
-- i am having problem
-- i have a problem
-- How may I help you today?
-- What seems to be the problem?
-- May I help you?
-- What is your complaint?
-- What can I do for you?
-- Is there something you need help with?
-- Would you like to lodge a complaint about anything?
-- Can I help you with anything?
-- How can I be of help to you?
-- How may I be of assistance?
-- What do you need help with?
-- Hello. how are you
-- What is your name
-- what are you doing
-- what can you do for me
-- why are you here
-- can you do me a favor
-- can you help me out
-- Hi
-- Hai
-- Hey
-- Hello  
-- Ola
-- Dude
-- Good morning
-- What doing
-- How are you
-- Yo yo
-- hi
-- hello
-- I need a help.
-- ola
-- hey
-- can u do something for me?
-- Hello
-- How are you
-- Excuse me
-- May I know your name?
-- hello hello
-- can you help me?
-- Dude
-- I need a help.
-- can u do something for me?
-- heyy
-- hey
+- i need someone to clean my room
+- i need a carpenter
+- i need to book an electrician
 
 ## intent:confirmation
 - yeah
@@ -581,17 +422,13 @@
 - definitely
 - yaa absolutely
 - yes
-
-## intent:final
-- thank you
-- bye
-- so kind of you
-- thank you so much dude
-- baa bye
-- thank you
+- yes
+- yes
+- yes
+- yes
 
 ## intent:date_time
-- next friday at 3 p.m. 
+- next friday at 3 p.m.
 - [Today evening](date) at [4 p.m.](time)
 - [today](date) at 12 noon
 - [tomorrow](date) [evening](time)
@@ -601,33 +438,88 @@
 - coming [thursday](date) at [9](time) p.m.
 - today evening
 - tomorrow at 1 p.m
+- [tomorrow at 4 pm](time:2018-12-30T16:00:00.000Z)[4 pm](time)[4](number:4.0)[4](distance:4.0)[4](volume:4.0)[4](temperature:4.0) pm
+
+## intent:final
+- thank you
+- bye
+- so kind of you
+- thank you so much dude
+- baa bye
+- thank you
+
+## intent:greet
+- hello
+- hi
+- hi
+- hello
+- hi how are you
+- hello good morning
+- hi good morning
+- hello good evening
+- hi good afternoon
+- hi good evening
+- hello customer care
+- hello hello
+- aa hii
+- hello hi
+- i am having problem
+- i have a problem
+- How may I help you today?
+- What seems to be the problem?
+- May I help you?
+- What is your complaint?
+- What can I do for you?
+- Is there something you need help with?
+- Would you like to lodge a complaint about anything?
+- Can I help you with anything?
+- How can I be of help to you?
+- How may I be of assistance?
+- What do you need help with?
+- Hello. how are you
+- What is your name
+- what are you doing
+- what can you do for me
+- why are you here
+- can you do me a favor
+- can you help me out
+- Hi
+- Hai
+- Hey
+- Hello
+- Ola
+- Dude
+- Good morning
+- What doing
+- How are you
+- Yo yo
+- hi
+- hello
+- I need a help.
+- ola
+- hey
+- can u do something for me?
+- Hello
+- How are you
+- Excuse me
+- May I know your name?
+- hello hello
+- can you help me?
+- Dude
+- I need a help.
+- can u do something for me?
+- heyy
+- hey
+
+## intent:negative
+- no
+- dont want
+- not required
+- not necessary
+- not exactly
+- i dont wish that
+- no
 
 ## intent:A_restart
 - actionrestart
 - actionrestart everything
-
-
-
-// - smell is coming from the cylinder
-// - smelly
-// - gas smell
-// - Some smell is coming from kitchen
-// - I think gas is leaking
-// - Cylinder is not working
-// - Gas leaking due to regulator problems
-// - Gas leakage to washer problem in the cylinder
-// - There is a smell coming from the kitchen?
-// - I think the gas tube is leaking.
-// - There is a lot of smell coming from the cylinder.
-// - The seal was broken on delivery
-// - I can smell gas even after the connection is secured
-// - The gas is leaking even after having closed the supply
-// - I think gas is leaking
-// - Gas leaking due to regulator problems
-// - smell is coming from the cylinder
-// - gas smell
-// - I think gas is leaking
-// - Gas leaking due to regulator problems
-// - I think the gas tube is leaking.
-// - There is a lot of smell coming from the cylinder.
-// - The gas is leaking even after having closed the supply

@@ -1,55 +1,53 @@
 %YAML 1.1
 ---
 actions:
-- utter_plumbing
-- utter_electricity
-- utter_gas_leakage
-- utter_alternate
-- utter_datetime
-- action_slot_reset
-- utter_addcans
-- action_slots2
 - utter_book_cab_or_gas
-- utter_final
-- utter_carpenter_service
-- utter_maid
-- action_slots
-- utter_confirmation
 - utter_changeofservice
-- utter_greet
+- action_slot_reset
 - utter_ask_confirmation
 - utter_negative
+- action_slots
 - utter_consult
+- utter_confirmation
+- utter_final
+- utter_gas_leakage
+- utter_addcans
+- utter_maid
+- utter_alternate
+- utter_greet
+- utter_electricity
+- action_slots2
+- utter_carpenter_service
+- utter_datetime
 - utter_open_contacts
-
+- utter_plumbing
 config:
   store_entities_as_slots: true
 entities:
-- w_service
-- number
-- electrical device
 - date
-- time
-- temperature
-- person_maid
 - add_on
+- time
 - distance
-- bath_utilities
-- substance
+- w_service
+- temperature
+- electrical device
 - service
-- object
+- person_maid
 - volume
+- bath_utilities
+- number
+- substance
+- object
 forms: []
 intents:
-- booking
-- greet
-- date_time
 - confirmation
+- date_time
+- booking
 - negative
+- greet
 - final
 - A_restart
 - house_service
-
 slots:
   add_on:
     auto_fill: true
@@ -80,20 +78,22 @@ slots:
   w_service:
     auto_fill: true
     type: rasa_core.slots.TextSlot
-
-
 templates:
   utter_addcans:
   - text: Do you want add more water cans
   utter_alternate:
   - text: Sorry! I couldnt understand you
   utter_ask_confirmation:
-  - text: You have requested for the service at @{time}@. Can I go ahead for booking?
+  - text: You have requested for the service @{time}@. Can I go ahead for booking?
   utter_changeofservice:
   - text: You are currently processing a service!.Do you want to change the service(press
       yes) or change timing of current service(press No)?
   utter_confirmation:
-  - text: Cool! Thanks for the confirmation !! we will do the need for you. Service we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Cool! Thanks for the confirmation !! we will do the need for you. Service
+      we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing,
+      Water, Maid|
+  utter_consult:
+  - text: Do you report it to control room(Press yes) or book outsiders(Press no)?
   utter_datetime:
   - text: Can you suggest a workable date and time for booking your need
   - text: I can book for you. please provide me with your workable date and time
@@ -103,14 +103,15 @@ templates:
   utter_gas_leakage:
   - text: Gas leakage problem. Consult expert!!!
   utter_greet:
-  - text: Hi! How can I help you? Service we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
-  - text: Hello! Nice to hear from you! How can I help you! Service we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
-  - text: Hey buddy! Welcome! How can I help you! Service we provide -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hi! How can I help you? Service we provide -- |Bookings -Problems related
+      to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hello! Nice to hear from you! How can I help you! Service we provide 
+            -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hey buddy! Welcome! How can I help you! Service we provide -- |Bookings
+      -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
   utter_maid:
   - text: Problem with maid
   utter_negative:
   - text: what else can i do for u
-  utter_consult:
-  - text: Do you report it to control room(Press yes) or book outsiders(Press no)? 
   utter_open_contacts:
   - text: contacts

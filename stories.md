@@ -136,3 +136,27 @@
    - utter_confirmation
    - action_restart
 
+## Generated Story 5183866095940343958
+* booking
+    - action_slots
+* confirmation
+    - utter_consult
+* confirmation
+    - utter_datetime
+* date_time{"time": "2018-12-30T16:00:00.000Z", "number": 4.0, "distance": 4.0, "volume": 4.0, "temperature": 4.0}
+    - slot{"time": "2018-12-30T16:00:00.000Z"}
+    - utter_ask_confirmation
+* confirmation
+    - utter_confirmation
+    - action_restart
+
+## Generated Story 7220899640885780695
+* booking
+    - action_slots
+* booking
+    - action_slots
+* confirmation
+    - utter_consult
+* negative
+    - utter_open_contacts
+    - action_restart

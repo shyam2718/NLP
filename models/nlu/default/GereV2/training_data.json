@@ -1642,272 +1642,16 @@
         "text": "Will they be available as a stay-in [servingmaid] (person_maid)?"
       },
       {
-        "intent": "negative",
-        "text": "no"
+        "intent": "booking",
+        "text": "i need someone to clean my room"
       },
       {
-        "intent": "negative",
-        "text": "dont want"
+        "intent": "booking",
+        "text": "i need a carpenter"
       },
       {
-        "intent": "negative",
-        "text": "not required"
-      },
-      {
-        "intent": "negative",
-        "text": "not necessary"
-      },
-      {
-        "intent": "negative",
-        "text": "not exactly"
-      },
-      {
-        "intent": "negative",
-        "text": "i dont wish that"
-      },
-      {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
-        "text": "hi how are you"
-      },
-      {
-        "intent": "greet",
-        "text": "hello good morning"
-      },
-      {
-        "intent": "greet",
-        "text": "hi good morning"
-      },
-      {
-        "intent": "greet",
-        "text": "hello good evening"
-      },
-      {
-        "intent": "greet",
-        "text": "hi good afternoon"
-      },
-      {
-        "intent": "greet",
-        "text": "hi good evening"
-      },
-      {
-        "intent": "greet",
-        "text": "hello customer care"
-      },
-      {
-        "intent": "greet",
-        "text": "hello hello"
-      },
-      {
-        "intent": "greet",
-        "text": "aa hii"
-      },
-      {
-        "intent": "greet",
-        "text": "hello hi"
-      },
-      {
-        "intent": "greet",
-        "text": "i am having problem"
-      },
-      {
-        "intent": "greet",
-        "text": "i have a problem"
-      },
-      {
-        "intent": "greet",
-        "text": "How may I help you today?"
-      },
-      {
-        "intent": "greet",
-        "text": "What seems to be the problem?"
-      },
-      {
-        "intent": "greet",
-        "text": "May I help you?"
-      },
-      {
-        "intent": "greet",
-        "text": "What is your complaint?"
-      },
-      {
-        "intent": "greet",
-        "text": "What can I do for you?"
-      },
-      {
-        "intent": "greet",
-        "text": "Is there something you need help with?"
-      },
-      {
-        "intent": "greet",
-        "text": "Would you like to lodge a complaint about anything?"
-      },
-      {
-        "intent": "greet",
-        "text": "Can I help you with anything?"
-      },
-      {
-        "intent": "greet",
-        "text": "How can I be of help to you?"
-      },
-      {
-        "intent": "greet",
-        "text": "How may I be of assistance?"
-      },
-      {
-        "intent": "greet",
-        "text": "What do you need help with?"
-      },
-      {
-        "intent": "greet",
-        "text": "Hello. how are you"
-      },
-      {
-        "intent": "greet",
-        "text": "What is your name"
-      },
-      {
-        "intent": "greet",
-        "text": "what are you doing"
-      },
-      {
-        "intent": "greet",
-        "text": "what can you do for me"
-      },
-      {
-        "intent": "greet",
-        "text": "why are you here"
-      },
-      {
-        "intent": "greet",
-        "text": "can you do me a favor"
-      },
-      {
-        "intent": "greet",
-        "text": "can you help me out"
-      },
-      {
-        "intent": "greet",
-        "text": "Hi"
-      },
-      {
-        "intent": "greet",
-        "text": "Hai"
-      },
-      {
-        "intent": "greet",
-        "text": "Hey"
-      },
-      {
-        "intent": "greet",
-        "text": "Hello"
-      },
-      {
-        "intent": "greet",
-        "text": "Ola"
-      },
-      {
-        "intent": "greet",
-        "text": "Dude"
-      },
-      {
-        "intent": "greet",
-        "text": "Good morning"
-      },
-      {
-        "intent": "greet",
-        "text": "What doing"
-      },
-      {
-        "intent": "greet",
-        "text": "How are you"
-      },
-      {
-        "intent": "greet",
-        "text": "Yo yo"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
-      },
-      {
-        "intent": "greet",
-        "text": "hello"
-      },
-      {
-        "intent": "greet",
-        "text": "I need a help."
-      },
-      {
-        "intent": "greet",
-        "text": "ola"
-      },
-      {
-        "intent": "greet",
-        "text": "hey"
-      },
-      {
-        "intent": "greet",
-        "text": "can u do something for me?"
-      },
-      {
-        "intent": "greet",
-        "text": "Hello"
-      },
-      {
-        "intent": "greet",
-        "text": "How are you"
-      },
-      {
-        "intent": "greet",
-        "text": "Excuse me"
-      },
-      {
-        "intent": "greet",
-        "text": "May I know your name?"
-      },
-      {
-        "intent": "greet",
-        "text": "hello hello"
-      },
-      {
-        "intent": "greet",
-        "text": "can you help me?"
-      },
-      {
-        "intent": "greet",
-        "text": "Dude"
-      },
-      {
-        "intent": "greet",
-        "text": "I need a help."
-      },
-      {
-        "intent": "greet",
-        "text": "can u do something for me?"
-      },
-      {
-        "intent": "greet",
-        "text": "heyy"
-      },
-      {
-        "intent": "greet",
-        "text": "hey"
+        "intent": "booking",
+        "text": "i need to book an electrician"
       },
       {
         "intent": "confirmation",
@@ -2162,28 +1906,20 @@
         "text": "yes"
       },
       {
-        "intent": "final",
-        "text": "thank you"
+        "intent": "confirmation",
+        "text": "yes"
       },
       {
-        "intent": "final",
-        "text": "bye"
+        "intent": "confirmation",
+        "text": "yes"
       },
       {
-        "intent": "final",
-        "text": "so kind of you"
+        "intent": "confirmation",
+        "text": "yes"
       },
       {
-        "intent": "final",
-        "text": "thank you so much dude"
-      },
-      {
-        "intent": "final",
-        "text": "baa bye"
-      },
-      {
-        "intent": "final",
-        "text": "thank you"
+        "intent": "confirmation",
+        "text": "yes"
       },
       {
         "intent": "date_time",
@@ -2292,6 +2028,344 @@
         "text": "tomorrow at 1 p.m"
       },
       {
+        "intent": "date_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "2018-12-30T16:00:00.000Z",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "4 pm",
+            "entity": "time"
+          },
+          {
+            "start": 20,
+            "end": 21,
+            "value": "4.0",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 22,
+            "value": "4.0",
+            "entity": "distance"
+          },
+          {
+            "start": 22,
+            "end": 23,
+            "value": "4.0",
+            "entity": "volume"
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "value": "4.0",
+            "entity": "temperature"
+          }
+        ],
+        "text": "tomorrow at 4 pm4 pm4444 pm"
+      },
+      {
+        "intent": "final",
+        "text": "thank you"
+      },
+      {
+        "intent": "final",
+        "text": "bye"
+      },
+      {
+        "intent": "final",
+        "text": "so kind of you"
+      },
+      {
+        "intent": "final",
+        "text": "thank you so much dude"
+      },
+      {
+        "intent": "final",
+        "text": "baa bye"
+      },
+      {
+        "intent": "final",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hello customer care"
+      },
+      {
+        "intent": "greet",
+        "text": "hello hello"
+      },
+      {
+        "intent": "greet",
+        "text": "aa hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello hi"
+      },
+      {
+        "intent": "greet",
+        "text": "i am having problem"
+      },
+      {
+        "intent": "greet",
+        "text": "i have a problem"
+      },
+      {
+        "intent": "greet",
+        "text": "How may I help you today?"
+      },
+      {
+        "intent": "greet",
+        "text": "What seems to be the problem?"
+      },
+      {
+        "intent": "greet",
+        "text": "May I help you?"
+      },
+      {
+        "intent": "greet",
+        "text": "What is your complaint?"
+      },
+      {
+        "intent": "greet",
+        "text": "What can I do for you?"
+      },
+      {
+        "intent": "greet",
+        "text": "Is there something you need help with?"
+      },
+      {
+        "intent": "greet",
+        "text": "Would you like to lodge a complaint about anything?"
+      },
+      {
+        "intent": "greet",
+        "text": "Can I help you with anything?"
+      },
+      {
+        "intent": "greet",
+        "text": "How can I be of help to you?"
+      },
+      {
+        "intent": "greet",
+        "text": "How may I be of assistance?"
+      },
+      {
+        "intent": "greet",
+        "text": "What do you need help with?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello. how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "What is your name"
+      },
+      {
+        "intent": "greet",
+        "text": "what are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "what can you do for me"
+      },
+      {
+        "intent": "greet",
+        "text": "why are you here"
+      },
+      {
+        "intent": "greet",
+        "text": "can you do me a favor"
+      },
+      {
+        "intent": "greet",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hai"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Ola"
+      },
+      {
+        "intent": "greet",
+        "text": "Dude"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "What doing"
+      },
+      {
+        "intent": "greet",
+        "text": "How are you"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "I need a help."
+      },
+      {
+        "intent": "greet",
+        "text": "ola"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "can u do something for me?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "How are you"
+      },
+      {
+        "intent": "greet",
+        "text": "Excuse me"
+      },
+      {
+        "intent": "greet",
+        "text": "May I know your name?"
+      },
+      {
+        "intent": "greet",
+        "text": "hello hello"
+      },
+      {
+        "intent": "greet",
+        "text": "can you help me?"
+      },
+      {
+        "intent": "greet",
+        "text": "Dude"
+      },
+      {
+        "intent": "greet",
+        "text": "I need a help."
+      },
+      {
+        "intent": "greet",
+        "text": "can u do something for me?"
+      },
+      {
+        "intent": "greet",
+        "text": "heyy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "negative",
+        "text": "no"
+      },
+      {
+        "intent": "negative",
+        "text": "dont want"
+      },
+      {
+        "intent": "negative",
+        "text": "not required"
+      },
+      {
+        "intent": "negative",
+        "text": "not necessary"
+      },
+      {
+        "intent": "negative",
+        "text": "not exactly"
+      },
+      {
+        "intent": "negative",
+        "text": "i dont wish that"
+      },
+      {
+        "intent": "negative",
+        "text": "no"
+      },
+      {
         "intent": "A_restart",
         "text": "actionrestart"
       },
@@ -2302,6 +2376,19 @@
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "2018-12-30T16:00:00.000Z",
+        "synonyms": [
+          "tomorrow at 4 pm"
+        ]
+      },
+      {
+        "value": "4.0",
+        "synonyms": [
+          "4"
+        ]
+      }
+    ]
   }
 }

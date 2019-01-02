@@ -3,6 +3,7 @@ from __future__ import division
 from __future__ import unicode_literals
 import logging
 
+import time
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
@@ -23,22 +24,22 @@ if __name__ == '__main__':
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     interpreter = RasaNLUInterpreter('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/models/nlu/default/GereV2')
 
-    agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
-    agent = Agent(domain_file,
-                    policies=[MemoizationPolicy(), KerasPolicy(epochs = 1000)],
-                    interpreter=interpreter,
-                    action_endpoint=action_endpoint)
+    # agent = Agent('/media/hticdeep/drive3/shyam/IDAI/RASA/Gere_version2/domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
+    # agent = Agent(domain_file,
+    #                 policies=[MemoizationPolicy(), KerasPolicy(epochs = 1000)],
+    #                 interpreter=interpreter,
+    #                 action_endpoint=action_endpoint)
                 
-    train_data = agent.load_data(training_data_file)
-    agent.train(train_data,
-                augmentation_factor = 50,
-                # max_history = 3,
-                # epochs = 500,
-                # batch_size = 2,
-                validation_split = 0.1)			
+    # train_data = agent.load_data(training_data_file)
+    # agent.train(train_data,
+    #             augmentation_factor = 50,
+    #             # max_history = 3,
+    #             # epochs = 500,
+    #             # batch_size = 2,
+    #             validation_split = 0.1)			
     
-    # Save the model
-    agent.persist(model_path)
+    # # Save the model
+    # agent.persist(model_path)
     
 
     #Loading the model
@@ -68,9 +69,10 @@ if __name__ == '__main__':
         else:
             data1 = data.split("$")
             data2 = data1[0]
+            time_name = str(time.time())
 
             if data2 == 'actionrestart':
-                #  db.child("ash").child("ashServer").set("System Restarting")
+                responses = T_agent.handle_text(data2)
                 print("...")
             
             else:
@@ -78,8 +80,14 @@ if __name__ == '__main__':
                 for response in responses:
                     result = response["text"]
                 
+
                 # IF result is not set:
-                db.child("ashServer").set(result)
+                if 'result' in locals():
+                    db.child("ashServer").set(result + '&' + time_name)
+                else:
+                    db.child("ashServer").set("Some problem!! Try something simpler or restart the app")
+
+            # db.child("ashServer").set(result)
 
         return
 

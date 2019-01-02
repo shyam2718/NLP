@@ -65,6 +65,11 @@ class ActionSlot1(Action):
                     BoW.append(l.name())
 
         return BoW
+    
+    def stem_sentence(self,data):
+        stemmer = nltk.PorterStemmer()
+        Stemmed_Input_tokens = [stemmer.stem(word) for word in data]
+        return Stemmed_Input_tokens
 
     def run(self, dispatcher, tracker, domain):
 
@@ -80,19 +85,25 @@ class ActionSlot1(Action):
 
         #Bag of words:
         Electricity_Control_room = ['power','powercut','powershutdown','powerfailure','poweroff','power closedown','poweroutage','powersupplyinterruption','powerblackout','powerobstruction','powerlayoff','powerstandstill','powerdiscontinuance']
-        Electricity_appl = ['electric','electrician','ac','air','conditioner','microwave',' oven','washing', 'machine','dryer','refrigerator','heater','vacuum', 'cleaner','boiler','coffee', 'maker','electric', 'cooker','dish washer','ironbox','television','fan','gasfireplace','light','air', ' purifier','juicer','blender','purifier','cooler','geyser','ups','generator','genset']
+        Electricity_appl = ['electric','electrician','ac','air','conditioner','microwave',' oven','washing', 'machine','dryer','refrigerator','heater','vacuum','boiler','coffee', 'maker','electric', 'cooker','dish washer','ironbox','television','fan','gasfireplace','light','air', ' purifier','juicer','blender','purifier','cooler','geyser','ups','generator','genset']
         Plumbing = ['plumber','plumbing','tap','pipe','closet','valve','tank','sink','wash basin','faucet','shower','lavatory','plumbing','tub','rack','adaptor','drain','seat','urinal','plumber','pip fitter','pipefixer','joint']
         Carpenting = ['carpenter','carpentery','sofa','table','cot','daybed','chair','bench','couch','bench','door','window','desk','shelf','wardrobe','cabinet','rack','stand','sheath','gate','ventilator','frame','carpenter','cabinet maker','wood worker','craftsman','mason','woodman','latch','bolt','hinge','woodjoiner','artificer']
         Water_service = ['water','hard','dirty']   
-        Maid = ['maid','housemaid','maidservant','nursemaid','cleaning',' lady','cleaningwoman','housekeeper','housecleaner','caretaker','servant','chambermaid','attendent','servingmaid','babysitter','cookmaid','cleaner','cook','cleaner']
+        Maid = ['maid','housemaid','maidservant','nursemaid','cleaning',' lady','cleaningwoman','housekeeper','housecleaner','caretaker','servant','chambermaid','attendent','servingmaid','babysitter','cookmaid','cleaner','cook','clean']
 
         status = self.condition_check(Input_tokens,text_check,Electricity_Control_room,Electricity_appl,Plumbing,Carpenting,Water_service,Maid,dispatcher)
 
-        if status == 1:
+        if status == 0:
             Bagofwords = self.search_dictionary(filtered_sentence)
             C_status = self.condition_check(Bagofwords,text_check,Electricity_Control_room,Electricity_appl,Plumbing,Carpenting,Water_service,Maid,dispatcher)
+           
             if C_status == 0:
-                dispatcher.utter_message('Hey sorry !!! May be you can try something simpler or service is not provided')
+                stemed_words = self.stem_sentence(Input_tokens)
+                C2_status = self.condition_check(stemed_words,text_check,Electricity_Control_room,Electricity_appl,Plumbing,Carpenting,Water_service,Maid,dispatcher)
+           
+                if C2_status == 0:
+                    dispatcher.utter_message('Hey sorry !!! May be you can try something simpler or service is not provided')
+               
 
         return []
 
