@@ -5,7 +5,7 @@ import json
 app_id = '87d6621d'
 app_key = '086226e56a258a8179ccf5adc8b8071e'
 language = 'en'
-word_id = 'someone'
+word_id = 'wire'
 
 url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + '/' + word_id.lower() + '/synonyms'
 #url Normalized frequency

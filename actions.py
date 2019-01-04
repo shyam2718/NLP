@@ -110,9 +110,9 @@ class ActionSlot1(Action):
 
         #Bag of words:
         Electricity_Control_room = ['power','powercut','powershutdown','powerfailure','poweroff','power closedown','poweroutage','powersupplyinterruption','powerblackout','powerobstruction','powerlayoff','powerstandstill','powerdiscontinuance']
-        Electricity_appl = ['electric','electrician','ac','air','conditioner','microwave',' oven','washing', 'machine','dryer','refrigerator','heater','vacuum','boiler','coffee', 'maker','electric', 'cooker','dish washer','ironbox','television','fan','gasfireplace','light','air', ' purifier','juicer','blender','purifier','cooler','geyser','ups','generator','genset']
+        Electricity_appl = ['wire','electric','bulb','electrician','ac','conditioner','microwave',' oven','washing', 'machine','dryer','refrigerator','heater','vacuum','boiler','coffee', 'maker','electric', 'cooker','dish washer','ironbox','television','fan','gasfireplace','light', ' purifier','juicer','blender','purifier','cooler','geyser','ups','generator','genset']
         Plumbing = ['plumber','plumbing','tap','pipe','closet','valve','tank','sink','wash basin','faucet','shower','lavatory','plumbing','tub','rack','adaptor','drain','seat','urinal','plumber','pip fitter','pipefixer','joint']
-        Carpenting = ['carpenter','carpentery','sofa','table','cot','daybed','chair','bench','couch','bench','door','window','desk','shelf','wardrobe','cabinet','rack','stand','sheath','gate','ventilator','frame','carpenter','cabinet maker','wood worker','craftsman','mason','woodman','latch','bolt','hinge','woodjoiner','artificer']
+        Carpenting = ['carpenter','carpentry','sofa','table','cot','daybed','chair','bench','couch','bench','door','window','desk','shelf','wardrobe','cabinet','rack','stand','sheath','gate','ventilator','frame','carpenter','cabinet maker','wood worker','craftsman','mason','woodman','latch','bolt','hinge','woodjoiner','artificer']
         Water_service = ['water','hard','dirty']   
         Maid = ['maid','housemaid','maidservant','nursemaid','cleaning',' lady','cleaningwoman','housekeeper','housecleaner','caretaker','servant','chambermaid','attendent','servingmaid','babysitter','cookmaid','cleaner','cook','clean']
 

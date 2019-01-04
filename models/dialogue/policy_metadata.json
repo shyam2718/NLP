@@ -23,5 +23,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20190102-155930"
+  "trained_at": "20190104-181220"
 }

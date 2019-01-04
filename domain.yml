@@ -1,53 +1,52 @@
 %YAML 1.1
 ---
 actions:
-- utter_book_cab_or_gas
-- utter_changeofservice
-- action_slot_reset
-- utter_ask_confirmation
-- utter_negative
-- action_slots
-- utter_consult
 - utter_confirmation
-- utter_final
-- utter_gas_leakage
-- utter_addcans
-- utter_maid
 - utter_alternate
-- utter_greet
+- action_slots
+- utter_gas_leakage
 - utter_electricity
-- action_slots2
-- utter_carpenter_service
-- utter_datetime
+- utter_greet
+- utter_final
+- utter_negative
 - utter_open_contacts
+- utter_carpenter_service
+- utter_ask_confirmation
 - utter_plumbing
+- utter_changeofservice
+- utter_maid
+- action_slots2
+- utter_book_cab_or_gas
+- utter_consult
+- action_slot_reset
+- utter_addcans
+- utter_datetime
 config:
   store_entities_as_slots: true
 entities:
-- date
-- add_on
+- bath_utilities
+- electrical device
+- object
 - time
+- temperature
+- service
+- number
+- person_maid
+- substance
+- add_on
+- date
 - distance
 - w_service
-- temperature
-- electrical device
-- service
-- person_maid
 - volume
-- bath_utilities
-- number
-- substance
-- object
 forms: []
 intents:
-- confirmation
 - date_time
 - booking
+- confirmation
 - negative
 - greet
 - final
 - A_restart
-- house_service
 slots:
   add_on:
     auto_fill: true
@@ -105,8 +104,8 @@ templates:
   utter_greet:
   - text: Hi! How can I help you? Service we provide -- |Bookings -Problems related
       to Electricity, Carpenting, Plumbing, Water, Maid|
-  - text: Hello! Nice to hear from you! How can I help you! Service we provide 
-            -- |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
+  - text: Hello! Nice to hear from you! How can I help you! Service we provide --
+      |Bookings -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
   - text: Hey buddy! Welcome! How can I help you! Service we provide -- |Bookings
       -Problems related to Electricity, Carpenting, Plumbing, Water, Maid|
   utter_maid:

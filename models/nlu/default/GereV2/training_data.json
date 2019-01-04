@@ -2,6 +2,14 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "A_restart",
+        "text": "actionrestart"
+      },
+      {
+        "intent": "A_restart",
+        "text": "actionrestart everything"
+      },
+      {
         "intent": "booking",
         "text": "[ac] (electrical device) is not working"
       },
@@ -51,11 +59,11 @@
       },
       {
         "intent": "booking",
-        "text": "[washing machine] (electrical device) is not running"
+        "text": "[refrigerator] (electrical device) is not running"
       },
       {
         "intent": "booking",
-        "text": "[washing machine] (electrical device) drain problem"
+        "text": "[microwave] (electrical device) is problem"
       },
       {
         "intent": "booking",
@@ -71,7 +79,7 @@
       },
       {
         "intent": "booking",
-        "text": "[fan] (electrical device) is not working"
+        "text": "[cooker] (electrical device) is not working"
       },
       {
         "intent": "booking",
@@ -87,7 +95,7 @@
       },
       {
         "intent": "booking",
-        "text": "[fan] (electrical device) is running but no air"
+        "text": "[dish washer] (electrical device) is problematic"
       },
       {
         "intent": "booking",
@@ -147,7 +155,7 @@
       },
       {
         "intent": "booking",
-        "text": "[ac] (electrical device) not installed properly"
+        "text": "[bulb] (electrical device) not installed properly"
       },
       {
         "intent": "booking",
@@ -689,6 +697,10 @@
       },
       {
         "intent": "booking",
+        "text": "i have a problem with my ac"
+      },
+      {
+        "intent": "booking",
         "text": "[fan] (electrical device) motor is not working"
       },
       {
@@ -854,6 +866,10 @@
       {
         "intent": "booking",
         "text": "water [pipe] (bath_utilities) leakage"
+      },
+      {
+        "intent": "booking",
+        "text": "i have seres issue with my plumbing items"
       },
       {
         "intent": "booking",
@@ -1057,6 +1073,10 @@
       },
       {
         "intent": "booking",
+        "text": "I have series issue. i need a carpenter"
+      },
+      {
+        "intent": "booking",
         "text": "[window] (object) repair"
       },
       {
@@ -1077,7 +1097,7 @@
       },
       {
         "intent": "booking",
-        "text": "[window] (object) is in bad condition"
+        "text": "[desk] (object) is in bad condition"
       },
       {
         "intent": "booking",
@@ -1089,7 +1109,7 @@
       },
       {
         "intent": "booking",
-        "text": "[window] (object) rails coming out"
+        "text": "[desk] (object) rails coming out"
       },
       {
         "intent": "booking",
@@ -1097,7 +1117,7 @@
       },
       {
         "intent": "booking",
-        "text": "[window] (object) hinge broken"
+        "text": "[bench] (object) hinge broken"
       },
       {
         "intent": "booking",
@@ -1117,7 +1137,11 @@
       },
       {
         "intent": "booking",
-        "text": "[door] (object) jammed"
+        "text": "[chair] (object) jammed"
+      },
+      {
+        "intent": "booking",
+        "text": "chair broken"
       },
       {
         "intent": "booking",
@@ -1133,7 +1157,7 @@
       },
       {
         "intent": "booking",
-        "text": "[door] (object) frame broken"
+        "text": "[bench] (object) frame broken"
       },
       {
         "intent": "booking",
@@ -1177,11 +1201,11 @@
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) arm broken"
+        "text": "[sheath] (object) arm broken"
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) back rest broken"
+        "text": "[rack] (object) back rest broken"
       },
       {
         "intent": "booking",
@@ -1189,7 +1213,7 @@
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) is making noise"
+        "text": "[stand] (object) is making noise"
       },
       {
         "intent": "booking",
@@ -1213,7 +1237,7 @@
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) knobs repair"
+        "text": "[hinge] (object) knobs repair"
       },
       {
         "intent": "booking",
@@ -1221,7 +1245,7 @@
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) dismantle"
+        "text": "[woodjoiner] (object) dismantle"
       },
       {
         "intent": "booking",
@@ -1241,11 +1265,11 @@
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) tilting forward"
+        "text": "[chair] (object) tilting forward"
       },
       {
         "intent": "booking",
-        "text": "[sofa] (object) tilting backward"
+        "text": "[bolt] (object) tilting backward"
       },
       {
         "intent": "booking",
@@ -1261,11 +1285,11 @@
       },
       {
         "intent": "booking",
-        "text": "[table] (object) shaking"
+        "text": "[latch] (object) shaking"
       },
       {
         "intent": "booking",
-        "text": "[table] (object) needs support"
+        "text": "[carpentry] (object) needs support"
       },
       {
         "intent": "booking",
@@ -1277,7 +1301,11 @@
       },
       {
         "intent": "booking",
-        "text": "[table] (object) making noise"
+        "text": "[carpentry] (object) is needed"
+      },
+      {
+        "intent": "booking",
+        "text": "need carpenter"
       },
       {
         "intent": "booking",
@@ -1411,7 +1439,7 @@
       },
       {
         "intent": "booking",
-        "text": "i need a help on carpenting"
+        "text": "i need a help on carpentry"
       },
       {
         "intent": "booking",
@@ -1654,6 +1682,818 @@
         "text": "i need to book an electrician"
       },
       {
+        "intent": "booking",
+        "text": "i have a series problem with my ac"
+      },
+      {
+        "intent": "booking",
+        "text": "I have power issues in my house"
+      },
+      {
+        "intent": "booking",
+        "text": "My house has power fluctuation problem"
+      },
+      {
+        "intent": "booking",
+        "text": "i have power issues in my house-"
+      },
+      {
+        "intent": "booking",
+        "text": "my house has power fluctuation problem"
+      },
+      {
+        "intent": "booking",
+        "text": "i have powercut in our office -"
+      },
+      {
+        "intent": "booking",
+        "text": "there is powercut in our area"
+      },
+      {
+        "intent": "booking",
+        "text": "my neighbourhood is having a powershutdown-"
+      },
+      {
+        "intent": "booking",
+        "text": "tomorrow there is power shutdown"
+      },
+      {
+        "intent": "booking",
+        "text": "there is a power failure in our apartment-"
+      },
+      {
+        "intent": "booking",
+        "text": "our home has power failure now"
+      },
+      {
+        "intent": "booking",
+        "text": "i want poweroff to our apartment-"
+      },
+      {
+        "intent": "booking",
+        "text": "my work was interrupted due to poweroff"
+      },
+      {
+        "intent": "booking",
+        "text": "there was a powerclosedown near our factory"
+      },
+      {
+        "intent": "booking",
+        "text": "there is a powerclosedown in the school"
+      },
+      {
+        "intent": "booking",
+        "text": "there is a poweroutrage in the transformer"
+      },
+      {
+        "intent": "booking",
+        "text": "poweroutrage affected by home appliances"
+      },
+      {
+        "intent": "booking",
+        "text": "there is a frequent powersupplyinterruption at office"
+      },
+      {
+        "intent": "booking",
+        "text": "continuous powersupplyinterruption is there at my house"
+      },
+      {
+        "intent": "booking",
+        "text": "there was a powerblackout due to heavy winds"
+      },
+      {
+        "intent": "booking",
+        "text": "our area got powerblackout today"
+      },
+      {
+        "intent": "booking",
+        "text": "we have powerobstruction in our block now"
+      },
+      {
+        "intent": "booking",
+        "text": "our home was affected by powerobstruction today evening"
+      },
+      {
+        "intent": "booking",
+        "text": "the powerlayoff is very high for the past one week"
+      },
+      {
+        "intent": "booking",
+        "text": "the apartment powerlayoff is hindering our work"
+      },
+      {
+        "intent": "booking",
+        "text": "the powerstandstill is damaging the equipments"
+      },
+      {
+        "intent": "booking",
+        "text": "my house is ruined by the powerstandstill"
+      },
+      {
+        "intent": "booking",
+        "text": "the frequent powerdiscontinuance is seen at our factory"
+      },
+      {
+        "intent": "booking",
+        "text": "powerdiscontinuance is affecting our children"
+      },
+      {
+        "intent": "booking",
+        "text": "the electric applicances are getting heat due to powerfluctuation"
+      },
+      {
+        "intent": "booking",
+        "text": "electric shock is seen in many appliances"
+      },
+      {
+        "intent": "booking",
+        "text": "the bulb got burst today"
+      },
+      {
+        "intent": "booking",
+        "text": "low voltage is seen in the bulb"
+      },
+      {
+        "intent": "booking",
+        "text": "the electrican is not coming to our house"
+      },
+      {
+        "intent": "booking",
+        "text": "the electrician did not repair it properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the ac is filled with dust"
+      },
+      {
+        "intent": "booking",
+        "text": "the ac is causing power outrage"
+      },
+      {
+        "intent": "booking",
+        "text": "the air ventilation by ac in our house is not proper"
+      },
+      {
+        "intent": "booking",
+        "text": "air flow is improper from the airconditioner"
+      },
+      {
+        "intent": "booking",
+        "text": "the air conditioner has some complaint"
+      },
+      {
+        "intent": "booking",
+        "text": "the air conditioner is not working properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the microwave oven consuming more power"
+      },
+      {
+        "intent": "booking",
+        "text": "the microwave is getting stuck during cooking"
+      },
+      {
+        "intent": "booking",
+        "text": "the oven is is producing smoke during operation"
+      },
+      {
+        "intent": "booking",
+        "text": "the wires of the oven got loose"
+      },
+      {
+        "intent": "booking",
+        "text": "the washing machine stopped working"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is leaking in the washing machine"
+      },
+      {
+        "intent": "booking",
+        "text": "the washing machine is producing more sound"
+      },
+      {
+        "intent": "booking",
+        "text": "the clothes are not washed properly in the washing machine"
+      },
+      {
+        "intent": "booking",
+        "text": "the dryer is not drying the clothes properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the wires got burnt in the dryer"
+      },
+      {
+        "intent": "booking",
+        "text": "the refrigerator is not functional"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is leaking from refregirator"
+      },
+      {
+        "intent": "booking",
+        "text": "the heater is getting off in middle"
+      },
+      {
+        "intent": "booking",
+        "text": "the heater is not working properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the vacuum is not taking the dust"
+      },
+      {
+        "intent": "booking",
+        "text": "there is a loose connection in the vacuum"
+      },
+      {
+        "intent": "booking",
+        "text": "the boiler is not giving hot water"
+      },
+      {
+        "intent": "booking",
+        "text": "the boiler got burst today morning"
+      },
+      {
+        "intent": "booking",
+        "text": "the coffee maker is very slow"
+      },
+      {
+        "intent": "booking",
+        "text": "the coffee is malfunctioning"
+      },
+      {
+        "intent": "booking",
+        "text": "the coffee maker is does not heat up properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the coffee gets burnt in coffee maker"
+      },
+      {
+        "intent": "booking",
+        "text": "the electric cooker is not working fine"
+      },
+      {
+        "intent": "booking",
+        "text": "the rice is not getting boiled in electric cooker"
+      },
+      {
+        "intent": "booking",
+        "text": "the dish washer is having water problem"
+      },
+      {
+        "intent": "booking",
+        "text": "the water spraying is very less in the dishwasher"
+      },
+      {
+        "intent": "booking",
+        "text": "the ironbox is not getting heated"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is not spraying in the ironbox"
+      },
+      {
+        "intent": "booking",
+        "text": "the television is having picture quality problem"
+      },
+      {
+        "intent": "booking",
+        "text": "the television is having flickering issues"
+      },
+      {
+        "intent": "booking",
+        "text": "the fan is rotating very slow"
+      },
+      {
+        "intent": "booking",
+        "text": "the regulator of the fan is not working"
+      },
+      {
+        "intent": "booking",
+        "text": "the fuse of light is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the living room light is flickering"
+      },
+      {
+        "intent": "booking",
+        "text": "our air purifier is not purifying the air"
+      },
+      {
+        "intent": "booking",
+        "text": "the airpurifier is not working"
+      },
+      {
+        "intent": "booking",
+        "text": "the juicer blades have become blunt"
+      },
+      {
+        "intent": "booking",
+        "text": "the juicer switch are not working"
+      },
+      {
+        "intent": "booking",
+        "text": "the fruits are not blend in the blender"
+      },
+      {
+        "intent": "booking",
+        "text": "the blender is getting off in the middle"
+      },
+      {
+        "intent": "booking",
+        "text": "the cooler is not working properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the cooler is not giving cool air"
+      },
+      {
+        "intent": "booking",
+        "text": "the geyser got repaired"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is not getting heated in the geyser"
+      },
+      {
+        "intent": "booking",
+        "text": "the ups distilled water got over"
+      },
+      {
+        "intent": "booking",
+        "text": "the ups wires got burnt"
+      },
+      {
+        "intent": "booking",
+        "text": "the generator is not working in our apartment"
+      },
+      {
+        "intent": "booking",
+        "text": "the supply is very less from the generator"
+      },
+      {
+        "intent": "booking",
+        "text": "the genset has some issues"
+      },
+      {
+        "intent": "booking",
+        "text": "the genset is getting stopped many times"
+      },
+      {
+        "intent": "booking",
+        "text": "plumber did not repair the pipes properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the plumber has left repairing the wash basin"
+      },
+      {
+        "intent": "booking",
+        "text": "the plumber forgot to give connection to the shower"
+      },
+      {
+        "intent": "booking",
+        "text": "the plumbing work in toilet needs to be fixed"
+      },
+      {
+        "intent": "booking",
+        "text": "the restroom needs plumbing works"
+      },
+      {
+        "intent": "booking",
+        "text": "the tap got broken today"
+      },
+      {
+        "intent": "booking",
+        "text": "the tap is leaking"
+      },
+      {
+        "intent": "booking",
+        "text": "the tap is dripping continuously"
+      },
+      {
+        "intent": "booking",
+        "text": "the closet is door cameoff"
+      },
+      {
+        "intent": "booking",
+        "text": "the wooden peel came off from the closet"
+      },
+      {
+        "intent": "booking",
+        "text": "the valve got broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the valve leaks air"
+      },
+      {
+        "intent": "booking",
+        "text": "the valve leaks water"
+      },
+      {
+        "intent": "booking",
+        "text": "the tube in sink is wornoff"
+      },
+      {
+        "intent": "booking",
+        "text": "the sink is very britle"
+      },
+      {
+        "intent": "booking",
+        "text": "the wash basin needs some fix"
+      },
+      {
+        "intent": "booking",
+        "text": "the wash basin continuously drips waste water"
+      },
+      {
+        "intent": "booking",
+        "text": "the faucet is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the water tank of the fauset is not working"
+      },
+      {
+        "intent": "booking",
+        "text": "the shower water is not having proper pressure"
+      },
+      {
+        "intent": "booking",
+        "text": "the shower has too may blockages"
+      },
+      {
+        "intent": "booking",
+        "text": "the lavatory pipe is having leaks"
+      },
+      {
+        "intent": "booking",
+        "text": "the tap in the lavatory is not working"
+      },
+      {
+        "intent": "booking",
+        "text": "the tub got blockages"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is logging in the tub"
+      },
+      {
+        "intent": "booking",
+        "text": "the rack in the bathroom got broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the rack got slided"
+      },
+      {
+        "intent": "booking",
+        "text": "the adaptor is not working properly"
+      },
+      {
+        "intent": "booking",
+        "text": "there is problem wiht the adapter"
+      },
+      {
+        "intent": "booking",
+        "text": "the seat is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the tiolet seat came of"
+      },
+      {
+        "intent": "booking",
+        "text": "the urinal plumbing needs to be fixed"
+      },
+      {
+        "intent": "booking",
+        "text": "the water is not flowing in the urinal"
+      },
+      {
+        "intent": "booking",
+        "text": "the plumber did not fix the urinal"
+      },
+      {
+        "intent": "booking",
+        "text": "the plumber missed the faucet repair"
+      },
+      {
+        "intent": "booking",
+        "text": "the pipe fitter did not fit the pipes properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the pipe fitter did not fix the kitchen pipes properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the pipe fixer did not come for repair"
+      },
+      {
+        "intent": "booking",
+        "text": "the pipe fixer fixed the wrong pipes"
+      },
+      {
+        "intent": "booking",
+        "text": "the joint of the pipes are leaking"
+      },
+      {
+        "intent": "booking",
+        "text": "the pipe joint hinder the door closing"
+      },
+      {
+        "intent": "booking",
+        "text": "the carpenter made door locking very loose"
+      },
+      {
+        "intent": "booking",
+        "text": "the carpenter did not finish the window fixation"
+      },
+      {
+        "intent": "booking",
+        "text": "the bedroom needs more carpentry works"
+      },
+      {
+        "intent": "booking",
+        "text": "the carpentry works are still pending in our apartment"
+      },
+      {
+        "intent": "booking",
+        "text": "the sofa srpings got very loose"
+      },
+      {
+        "intent": "booking",
+        "text": "the leg of the sofa is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the table is not stable in dining hall"
+      },
+      {
+        "intent": "booking",
+        "text": "the table legs screws came off"
+      },
+      {
+        "intent": "booking",
+        "text": "the cot is making noise"
+      },
+      {
+        "intent": "booking",
+        "text": "the cot is very shaky"
+      },
+      {
+        "intent": "booking",
+        "text": "the daybed is very wet"
+      },
+      {
+        "intent": "booking",
+        "text": "the sponge come out from the daybed"
+      },
+      {
+        "intent": "booking",
+        "text": "the chair has very loose leg"
+      },
+      {
+        "intent": "booking",
+        "text": "the chair is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the bench is having holes in it"
+      },
+      {
+        "intent": "booking",
+        "text": "the bench is infested with mites"
+      },
+      {
+        "intent": "booking",
+        "text": "the couch has become sluggish"
+      },
+      {
+        "intent": "booking",
+        "text": "the coush is in repair"
+      },
+      {
+        "intent": "booking",
+        "text": "the door needs varnish"
+      },
+      {
+        "intent": "booking",
+        "text": "the door screws are very loose"
+      },
+      {
+        "intent": "booking",
+        "text": "the window glass got broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the window needs to be painted"
+      },
+      {
+        "intent": "booking",
+        "text": "the door needs to be painted"
+      },
+      {
+        "intent": "booking",
+        "text": "the desk is broken"
+      },
+      {
+        "intent": "booking",
+        "text": "the desk is having loose legs"
+      },
+      {
+        "intent": "booking",
+        "text": "the carpenter should replace new shelf"
+      },
+      {
+        "intent": "booking",
+        "text": "the shelf is very slanting"
+      },
+      {
+        "intent": "booking",
+        "text": "the wardrobe needs new pipes to put clothes"
+      },
+      {
+        "intent": "booking",
+        "text": "the wardrobe needs to be painted"
+      },
+      {
+        "intent": "booking",
+        "text": "the cabinet has to be fixed"
+      },
+      {
+        "intent": "booking",
+        "text": "build a rack for cabinet"
+      },
+      {
+        "intent": "booking",
+        "text": "the rack is worn off"
+      },
+      {
+        "intent": "booking",
+        "text": "the rack is very old and needs to be replaced"
+      },
+      {
+        "intent": "booking",
+        "text": "the stand of the lamp is unstable"
+      },
+      {
+        "intent": "booking",
+        "text": "the stand is shacking"
+      },
+      {
+        "intent": "booking",
+        "text": "the sheath is very loose"
+      },
+      {
+        "intent": "booking",
+        "text": "the mites infested the sheath"
+      },
+      {
+        "intent": "booking",
+        "text": "new gate to be built for the stairs"
+      },
+      {
+        "intent": "booking",
+        "text": "the old gate is very rusty"
+      },
+      {
+        "intent": "booking",
+        "text": "the gate is very tight"
+      },
+      {
+        "intent": "booking",
+        "text": "the ventilator is very dusty"
+      },
+      {
+        "intent": "booking",
+        "text": "the room of the ventilator is very narrow"
+      },
+      {
+        "intent": "booking",
+        "text": "th frame is very large"
+      },
+      {
+        "intent": "booking",
+        "text": "the handle of the frame is very tight"
+      },
+      {
+        "intent": "booking",
+        "text": "there are gaps in the frame"
+      },
+      {
+        "intent": "booking",
+        "text": "the cabinet maker is very not functioning properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the wood worker did not screw the woods properly"
+      },
+      {
+        "intent": "booking",
+        "text": "the craftsman did not make the complete the work"
+      },
+      {
+        "intent": "booking",
+        "text": "the mason did not complete the cement works"
+      },
+      {
+        "intent": "booking",
+        "text": "the mason built very poor sidewalls"
+      },
+      {
+        "intent": "booking",
+        "text": "the woodman made chair with improper connections"
+      },
+      {
+        "intent": "booking",
+        "text": "the woodman bought bad wood from the market"
+      },
+      {
+        "intent": "booking",
+        "text": "the latch of the door came off"
+      },
+      {
+        "intent": "booking",
+        "text": "the latch in the window is very tight"
+      },
+      {
+        "intent": "booking",
+        "text": "the latch in the toilet door is not fitting"
+      },
+      {
+        "intent": "booking",
+        "text": "the bolt is not there in the doors of the house"
+      },
+      {
+        "intent": "booking",
+        "text": "the bolt were found in the kitchen"
+      },
+      {
+        "intent": "booking",
+        "text": "the woodjoiner is not proper"
+      },
+      {
+        "intent": "booking",
+        "text": "the artificier is very lazy"
+      },
+      {
+        "intent": "booking",
+        "text": "the water supply is not coming to the house"
+      },
+      {
+        "intent": "booking",
+        "text": "the water supply is blocked due to some issue"
+      },
+      {
+        "intent": "booking",
+        "text": "the water allowance is very less"
+      },
+      {
+        "intent": "booking",
+        "text": "the water from the pipe is very hard"
+      },
+      {
+        "intent": "booking",
+        "text": "the water for food is very hard"
+      },
+      {
+        "intent": "booking",
+        "text": "the water supplied is very dirty"
+      },
+      {
+        "intent": "booking",
+        "text": "the dirty water is supplied in kitchen"
+      },
+      {
+        "intent": "booking",
+        "text": "the water for bathing is very dirty"
+      },
+      {
+        "intent": "booking",
+        "text": "the maid did not come today"
+      },
+      {
+        "intent": "booking",
+        "text": "the maid did not clean the house today"
+      },
+      {
+        "intent": "booking",
+        "text": "the housemaid came late today"
+      },
+      {
+        "intent": "booking",
+        "text": "the works done by housemaid is not satisfactory"
+      },
+      {
         "intent": "confirmation",
         "text": "yeah"
       },
@@ -1891,7 +2731,19 @@
       },
       {
         "intent": "confirmation",
-        "text": "Ya Yup Yep yes"
+        "text": "Ya"
+      },
+      {
+        "intent": "confirmation",
+        "text": "Yup"
+      },
+      {
+        "intent": "confirmation",
+        "text": "Yep"
+      },
+      {
+        "intent": "confirmation",
+        "text": "yes"
       },
       {
         "intent": "confirmation",
@@ -1907,7 +2759,19 @@
       },
       {
         "intent": "confirmation",
-        "text": "yes"
+        "text": "book it"
+      },
+      {
+        "intent": "confirmation",
+        "text": "go ahead"
+      },
+      {
+        "intent": "confirmation",
+        "text": "yeah definitely"
+      },
+      {
+        "intent": "confirmation",
+        "text": "report it"
       },
       {
         "intent": "confirmation",
@@ -1919,7 +2783,7 @@
       },
       {
         "intent": "confirmation",
-        "text": "yes"
+        "text": "ya confirm it"
       },
       {
         "intent": "date_time",
@@ -2092,6 +2956,18 @@
           }
         ],
         "text": "tomorrow at 4 pm4 pm4444 pm"
+      },
+      {
+        "intent": "date_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "{'from': '2019-01-05T18:00:00.000Z', 'to': '2019-01-06T00:00:00.000Z'}",
+            "entity": "time"
+          }
+        ],
+        "text": "tomorrow evening"
       },
       {
         "intent": "final",
@@ -2388,14 +3264,6 @@
       {
         "intent": "negative",
         "text": "no"
-      },
-      {
-        "intent": "A_restart",
-        "text": "actionrestart"
-      },
-      {
-        "intent": "A_restart",
-        "text": "actionrestart everything"
       }
     ],
     "regex_features": [],
@@ -2411,6 +3279,12 @@
         "value": "4.0",
         "synonyms": [
           "4"
+        ]
+      },
+      {
+        "value": "{'from': '2019-01-05T18:00:00.000Z', 'to': '2019-01-06T00:00:00.000Z'}",
+        "synonyms": [
+          "tomorrow evening"
         ]
       }
     ]

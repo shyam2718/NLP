@@ -85,7 +85,7 @@ if __name__ == '__main__':
                 if 'result' in locals():
                     db.child("ashServer").set(result + '&' + time_name)
                 else:
-                    db.child("ashServer").set("Some problem!! Try something simpler or restart the app")
+                    db.child("ashServer").set("Hey sorry. I could'nt understand!! Try something simpler" + '&' + time_name )
 
             # db.child("ashServer").set(result)
 
